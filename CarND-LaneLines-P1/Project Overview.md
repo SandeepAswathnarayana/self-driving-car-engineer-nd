@@ -2,8 +2,8 @@
 ### Reflection
 
 ### 1. Description of the pipeline:  
-
 In this project, Python and OpenCV (Open-source Computer Vision) are used to develop an analytical pipeline that can be used to automate lane line detection in image and movie files. This report reflects some lessons learned.
+
 [image1]: ./examples/grayscale.jpg "Grayscale"
 ---
 ### Building the vision pipeline
