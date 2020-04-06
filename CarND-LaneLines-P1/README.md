@@ -11,9 +11,9 @@ When we drive, we use our eyes to decide where to go.  The lines on the road tha
 In this project you will detect lane lines in images using Python and OpenCV.  OpenCV means "Open-Source Computer Vision", which is a package that has many useful tools for analyzing images.  
 
 
-Installating Packages & Dependencies:  
+Installing Packages & Dependencies:  
 ---
-Use the anaconda prompt to run the following commands.  
+Use the cmd prompt or anaconda prompt (after installation) to run the following commands.  
 ## 1. Python:  
 Download the latest version of Python for Windows OS using this [video](https://www.youtube.com/watch?v=dX2-V2BocqQ) as reference with necessary instructions.  
 `>pip install python`  
@@ -52,7 +52,8 @@ Close the existing command prompt for the changes to take effect from the SETX c
 ## Python Imaging Library (PIL):  
 `>pip install pillow`  
 
-## Getting started with the Jupyter Notebook (using GitBash or Anaconda prompt):  
+## Getting started with the Jupyter Notebook  
+(using GitBash or Anaconda prompt):  
 `>cd CarND-LaneLines-P1/`  
 `>ls`  
 `>jupyter notebook P1.ipynb`  
@@ -104,7 +105,7 @@ slope of the line: coefficient “a”
 intercept of the line: coefficient “b”  
 Using these two parameters, we can find the top and bottom points on the line, so we can draw them on the image. Here, we use left line as an example, but the same holds true for the right line except its slope has opposite sign.  
 
-A brief illustration of this step:  
+A brief illustration of this process:  
 - Pre-Processing: we start with a bunch of segments from Hough Transform, and calculate slope of each segment (shown as directed blue line in the below): positive slope means the segment belongs to left line, while negative slope means right line. Meanwhile, we can find the minimum Y-coordinate of all points on both lines ( “minY” as shown with the dashed red line in the middle of image as below).
 - Avgerage Slope: starting from a bunch of segments with , we can calculate the slope of each segment. Then average value of them is the average slope of this lane line, that is the coefficient “a” in Y = a*X + b.
 - Average Position: we can compute the average value of X and Y coordinate of all points in the line, which determines the average position of this lane line( as shown with Yellow Dot in the below.)
