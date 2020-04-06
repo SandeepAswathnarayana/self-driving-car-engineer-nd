@@ -1,11 +1,7 @@
 # **Finding Lane Lines on the Road** 
 ### Reflection
 
-### 1. Describe your pipeline. As part of the description, explain how you modified the draw_lines() function.
-
-The goals / steps of this project are the following:
-* Make a pipeline that finds lane lines on the road
-* Reflect on your work in a written report
+### 1. Description of the pipeline:  
 
 In this project, Python and OpenCV (Open-source Computer Vision) are used to develop an analytical pipeline that can be used to automate lane line detection in image and movie files. This report reflects some lessons learned.
 [image1]: ./examples/grayscale.jpg "Grayscale"
@@ -42,6 +38,22 @@ One can use this mapping to help detect line segements in an image by simply cou
 #### Step 6: Draw Left & Right Lines
 Draw left and right lane lines by averaging/extrapolating the lines obtained using the helper functions from the sections above.
 Afetr making the pipeline and tuning parameters, we have the Hough line segments drawn onto the road. This step helps define a line to run the full length of the visible lane based on the line segments identified with the Hough Transform. As mentioned previously, we need to try to average and/or extrapolate the line segments we've detected to map out the full extent of the lane lines. See an example of the result we're going for in the video "P1_example.mp4".
+
+A continuous line like Y = a*X + b comprises of two components:
+slope of the line: coefficient “a”
+intercept of the line: coefficient “b”
+with these two parameters, we can find the top and bottom points on the line, so we can draw them on the image. Here, we use left line as an example, but the same holds true for the right line except its slope has opposite sign.
+A brief illustration of this:
+- Pre-Processing: we start with a bunch of segments from Hough Transform, and calculate slope of each segment (shown as directed blue line in the below): positive slope means the segment belongs to left line, while negative slope means right line. Meanwhile, we can find the minimum Y-coordinate of all points on both lines ( “minY” as shown with the dashed red line in the middle of image as below).
+- Avgerage Slope: starting from a bunch of segments with , we can calculate the slope of each segment. Then average value of them is the average slope of this lane line, that is the coefficient “a” in Y = a*X + b.
+- Avgerage Position: we can compute the average value of X and Y coordinate of all points in the line, which determines the average position of this lane line( as shown with Yellow Dot in the below.)
+Here, using avg. slope “a”, we can easily calculate coefficient “b” using average position (avg_x, avg_y) as: b = avg_y -a*avg_x
+- Determine the Top and Bottom Position: in order to draw lane line on the image, we need to know the start and end points. We call them top and bottom points in the image since the line is vertical.
+top_x = (minY -b)/a <note: minY is the minimum Y value of all points>
+bottom_x=(maxY -b)/a = (image.shape[0] -b)/a
+As such, we can draw left lane line between points:
+(top_x, minY) and (bottom_x, maxY)
+
 --images--
 
 #### Testing the solution pipeline on the test images
@@ -56,33 +68,8 @@ This is an overlay of the Hough line segments onto the original image. In the im
 #### Refining the Pipeline: the Long-Line Overlay
 The goal here was to overlay long, continuous lines on the lane lines, independent of whether the lane lines were dashed or solid. The draw_lines() function was modified in the following ways.
 
-**Discerning Right from Left**
-Replacing the identified line segements in an image with two continous line segments representing the left and right lanes first required developing a way to discern whether an edge was more likely a piece of the left lane or the right lane.
 
-Given the image's (x,y) coordinate system, a useful observation is that the left lane edges should have negative angles, while those making up the right lane line should possess positive angles.
-
-**Statistical Representatives**
-Once edges are separated into left and right groups, it is possible to estimate the slopes and intercepts that best represent the left and right lanes by taking group average.
-
-**Angular Masking**
-More contextualization was necessary when applying this pipeline to the diversity of images represented in the movie files, especially in the optional challenge. For example, we do not necessarily want any edge identified with a positive slope to contribute to the averages computed for the right line. We only want the edges with positive slope that are actually found along the right line. Angular masking helps us achieve this.
-
-A quick glance at the images/movies suggests that an edge within the region of interest must lie in the angular neighborhood of $45^{\circ}$ to be a line segment corresponding to the right lane line. Similarly, an edge must be in the neighborhood of $-45^{\circ}$ to be considered as a candidate edge for the left lane line. I found $\alpha \pm \sim14^{\circ}$ worked well.
-
-**Consistent Overlay**
-To stabilize the vertical presence of these representative lines throughout a sequence of images, we can assert that the represenatives will consistently fill the full vertical extent of the trapezoidal region of interest from which the edges came.
-
-By plugging in our choice of vertical components and the estimates of slope and intercept, we can compute the x coordinates of the left and right lines.
 --video screenshot--
-
-**Recent Memory**
-Once angular masking was put in place, there existed some frames in the movie files where no edges would be identified as lying on a particular line, say the left line.
-This would give a NaN estimate for the slope and intercept, effectively causing the pipeline to fail at detecting a lane line.
-
-Expanding the angular neighborhood too much would forgo the control obtained by using an angular mask, so I sought an alternative approach. It occurred to me that the lane line identification in the previous frame would very likely be a good estimate for the current frame. This worked quite well.
-
-**Percentages, not Pixels**
-The last thing I had to do to fully generalize the pipeline was to cast the coordinates of trapezoidal regional mask in terms of their percentages along the full length and width of the image, instead of as pixel values. This allows one to apply the same pipeline to images of differing size.
 
 ### 2. Identify potential shortcomings with your current pipeline
 
