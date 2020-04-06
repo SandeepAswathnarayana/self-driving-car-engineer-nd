@@ -13,13 +13,13 @@ In this project you will detect lane lines in images using Python and OpenCV.  O
 # Solution Pipeline Overview
 ---
 ![Solution Pipeline Overview](https://github.com/SandeepAswathnarayana/self-driving-car-engineer-nd/blob/master/CarND-LaneLines-P1/img/solution%20pipeline%20overview.png)  
-1. ## **Grayscaling**: 
+## 1. **Grayscaling**: 
 We process the image or frame within the video by changing colorful image into grayscale. Each pixel can be represented with single 8-bit number (0~255).  
 
 ![grayscale](https://github.com/SandeepAswathnarayana/self-driving-car-engineer-nd/blob/master/CarND-LaneLines-P1/results/solution%20pipeline%20output/grayscale/output_solidWhiteCurve.jpg)  
 
 
-2. ## **Gaussian Blurring**: 
+## 1. **Gaussian Blurring**: 
 To avoid sharp change in the image, we use Gaussian blurring in this project. We do so to avoid noise because we need to detect edge in next step. Smoothing can significantly improve the accuracy of edge detection later.  
 
 ![gaussian blur](https://github.com/SandeepAswathnarayana/self-driving-car-engineer-nd/blob/master/CarND-LaneLines-P1/results/solution%20pipeline%20output/gaussian%20blur/output_solidWhiteCurve.jpg)  
