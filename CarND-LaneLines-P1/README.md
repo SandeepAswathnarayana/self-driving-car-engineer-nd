@@ -10,10 +10,10 @@ When we drive, we use our eyes to decide where to go.  The lines on the road tha
 
 In this project you will detect lane lines in images using Python and OpenCV.  OpenCV means "Open-Source Computer Vision", which is a package that has many useful tools for analyzing images.  
 
-Solution Pipeline Ovreview
+Solution Pipeline Overview
 ---
 ![Solution Pipeline Overview](https://github.com/SandeepAswathnarayana/self-driving-car-engineer-nd/blob/master/CarND-LaneLines-P1/img/solution%20pipeline%20overview.png)  
-1. **Grayscaling**: We process the image or frame within the video by changing colorful image into grayscale. Each pixel can be represented with single 8-bit number (0~255).  
+1. ### **Grayscaling**: We process the image or frame within the video by changing colorful image into grayscale. Each pixel can be represented with single 8-bit number (0~255).  
 
 ![grayscale](https://github.com/SandeepAswathnarayana/self-driving-car-engineer-nd/blob/master/CarND-LaneLines-P1/results/solution%20pipeline%20output/grayscale/output_solidWhiteCurve.jpg)  
 
