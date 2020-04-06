@@ -3,44 +3,50 @@
 
 <img src="examples/laneLines_thirdPass.jpg" width="480" alt="Combined Image" />
 
-Overview
+# Overview
 ---
 
 When we drive, we use our eyes to decide where to go.  The lines on the road that show us where the lanes are act as our constant reference for where to steer the vehicle.  Naturally, one of the first things we would like to do in developing a self-driving car is to automatically detect lane lines using an algorithm.
 
 In this project you will detect lane lines in images using Python and OpenCV.  OpenCV means "Open-Source Computer Vision", which is a package that has many useful tools for analyzing images.  
 
-Solution Pipeline Overview
+# Solution Pipeline Overview
 ---
 ![Solution Pipeline Overview](https://github.com/SandeepAswathnarayana/self-driving-car-engineer-nd/blob/master/CarND-LaneLines-P1/img/solution%20pipeline%20overview.png)  
-1. ### **Grayscaling**: We process the image or frame within the video by changing colorful image into grayscale. Each pixel can be represented with single 8-bit number (0~255).  
+1. ## **Grayscaling**: 
+We process the image or frame within the video by changing colorful image into grayscale. Each pixel can be represented with single 8-bit number (0~255).  
 
 ![grayscale](https://github.com/SandeepAswathnarayana/self-driving-car-engineer-nd/blob/master/CarND-LaneLines-P1/results/solution%20pipeline%20output/grayscale/output_solidWhiteCurve.jpg)  
 
 
-2. **Gaussian Blurring**: To avoid sharp change in the image, we use Gaussian blurring in this project. We do so to avoid noise because we need to detect edge in next step. Smoothing can significantly improve the accuracy of edge detection later.  
+2. ## **Gaussian Blurring**: 
+To avoid sharp change in the image, we use Gaussian blurring in this project. We do so to avoid noise because we need to detect edge in next step. Smoothing can significantly improve the accuracy of edge detection later.  
 
 ![gaussian blur](https://github.com/SandeepAswathnarayana/self-driving-car-engineer-nd/blob/master/CarND-LaneLines-P1/results/solution%20pipeline%20output/gaussian%20blur/output_solidWhiteCurve.jpg)  
 
 
-3. **Canny Edge Detection**: The lane line has different color from its neighboring region. It is quite natural to detect edges in the image, which are more likely to be the lane lines. Here we use classic Canny Edge Detection.  
+3. ## **Canny Edge Detection**: 
+The lane line has different color from its neighboring region. It is quite natural to detect edges in the image, which are more likely to be the lane lines. Here we use classic Canny Edge Detection.  
 
 ![canny](https://github.com/SandeepAswathnarayana/self-driving-car-engineer-nd/blob/master/CarND-LaneLines-P1/results/solution%20pipeline%20output/canny/output_solidWhiteCurve.jpg)  
 
 
-4. **Finding the Region of Interest**: There are too many edges found from previous step. To narrow down to region that more likely have lane line, we need to restrict our search within more small portion of the image, which is called region of interest. Similar to cropping the photos on our smartphones.  
+4. ## **Finding the Region of Interest**: 
+There are too many edges found from previous step. To narrow down to region that more likely have lane line, we need to restrict our search within more small portion of the image, which is called region of interest. Similar to cropping the photos on our smartphones.  
 
 ![region of interest](https://github.com/SandeepAswathnarayana/self-driving-car-engineer-nd/blob/master/CarND-LaneLines-P1/results/solution%20pipeline%20output/region%20of%20interest/output_solidWhiteCurve.jpg)  
 
 
-5. **Hough Line Transform**: Previous step generates many points consisting of edges. To detect continuous lane line, we need to find a line from these points. The most classic approach is to use Hough Transfrom and find intersection of different curves in Hough Space.  
+5. ## **Hough Line Transform**: 
+Previous step generates many points consisting of edges. To detect continuous lane line, we need to find a line from these points. The most classic approach is to use Hough Transfrom and find intersection of different curves in Hough Space.  
 
 ![Hough Line Transform](https://github.com/SandeepAswathnarayana/self-driving-car-engineer-nd/blob/master/CarND-LaneLines-P1/img/hough%20line%20transform.jpg)  
 
 ![hough transform](https://github.com/SandeepAswathnarayana/self-driving-car-engineer-nd/blob/master/CarND-LaneLines-P1/results/solution%20pipeline%20output/hough%20transform/output_solidWhiteCurve.jpg)  
 
 
-6. **Extrapolating the left & right lane lines**: A continuous line like Y = a*X + b comprises of two components:
+6. ## **Extrapolating the left & right lane lines**: 
+A continuous line like Y = a*X + b comprises of two components:
 slope of the line: coefficient “a”
 intercept of the line: coefficient “b”
 Using these two parameters, we can find the top and bottom points on the line, so we can draw them on the image. Here, we use left line as an example, but the same holds true for the right line except its slope has opposite sign.
