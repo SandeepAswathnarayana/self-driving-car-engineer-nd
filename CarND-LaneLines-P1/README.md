@@ -30,12 +30,12 @@ Download the most recent version of the Anaconda for Windows OS. Refer to this [
 Adding anaconda and python path to your environmental variables:  
 
 Run the following commands on the Anaconda prompt:  
-where python  
-where conda  
+`>where python`  
+`>where conda`  
 
 Run the following commands on the cmd prompt:  
-SETX PATH "the path to your conda.exe file"  
-SETX PATH "the path to your python.exe file"  
+`>SETX PATH "the path to your conda.exe file"`  
+`>SETX PATH "the path to your python.exe file"`  
 Close the existing command prompt for the changes to take effect from the SETX command.  
 
 ## OpenCV2:  
@@ -103,6 +103,7 @@ A continuous line like Y = a*X + b comprises of two components:
 slope of the line: coefficient “a”  
 intercept of the line: coefficient “b”  
 Using these two parameters, we can find the top and bottom points on the line, so we can draw them on the image. Here, we use left line as an example, but the same holds true for the right line except its slope has opposite sign.  
+
 A brief illustration of this step:  
 - Pre-Processing: we start with a bunch of segments from Hough Transform, and calculate slope of each segment (shown as directed blue line in the below): positive slope means the segment belongs to left line, while negative slope means right line. Meanwhile, we can find the minimum Y-coordinate of all points on both lines ( “minY” as shown with the dashed red line in the middle of image as below).
 - Avgerage Slope: starting from a bunch of segments with , we can calculate the slope of each segment. Then average value of them is the average slope of this lane line, that is the coefficient “a” in Y = a*X + b.
@@ -127,3 +128,6 @@ As such, we can draw left lane line between points:
 
 ## Solid Yellow (Left) Lane:  
 ![solid yellow lane](https://github.com/SandeepAswathnarayana/self-driving-car-engineer-nd/blob/master/CarND-LaneLines-P1/GIFs/output_solidYellowLeft.gif)  
+
+
+For a brief decription of this project including potential shortcomings and possible improvements to the pipeline, please refer to the [Project Overview.md](https://github.com/SandeepAswathnarayana/self-driving-car-engineer-nd/blob/master/CarND-LaneLines-P1/Project%20Overview.md)  
