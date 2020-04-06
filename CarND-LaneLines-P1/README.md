@@ -11,21 +11,21 @@ When we drive, we use our eyes to decide where to go.  The lines on the road tha
 In this project you will detect lane lines in images using Python and OpenCV.  OpenCV means "Open-Source Computer Vision", which is a package that has many useful tools for analyzing images.  
 
 
-Dependancies & Installation:  
+Installating Packages & Dependencies:  
 ---
 Use the anaconda prompt to run the following commands.  
 ## 1. Python:  
 Download the latest version of Python for Windows OS using this [video](https://www.youtube.com/watch?v=dX2-V2BocqQ) as reference with necessary instructions.  
 `>pip install python`  
 `>python --version`  
-`>Python 3.7.6`  
+`Python 3.7.6`  
 
 ## 2. Anaconda:  
 Download the most recent version of the Anaconda for Windows OS. Refer to this [blogpost and video](https://medium.com/@GalarnykMichael/install-python-on-windows-anaconda-c63c7c3d1444) to get started.  
-pip install conda  
-conda list (just to make sure the anaconda prompt recognizes the "conda list" command)  
-conda --version  
-4.8.2  
+`>pip install conda`  
+`>conda list` (just to make sure the anaconda prompt recognizes the "conda list" command)  
+`>conda --version`  
+`4.8.2`  
 
 Adding anaconda and python path to your environmental variables:  
 
@@ -38,12 +38,29 @@ SETX PATH "the path to your conda.exe file"
 SETX PATH "the path to your python.exe file"  
 Close the existing command prompt for the changes to take effect from the SETX command.  
 
+## OpenCV2:  
+`>python --version`  
+`>pip --version`  
+`>pip install opencv-python`  
+`>python`  
+`>import cv2`  
+`>cv2.__version__`  
 
-If you have already installed the [CarND Term1 Starter Kit](https://github.com/udacity/CarND-Term1-Starter-Kit/blob/master/README.md) you should be good to go! If not, you should install the starter kit to get started on this project.  
+## matplotlib:  
+`>pip install matplotlib`  
 
-`> jupyter notebook`
+## Python Imaging Library (PIL):  
+`>pip install pillow`  
 
-A browser window will appear showing the contents of the current directory.  Click on the file called "P1.ipynb".  Another browser window will appear displaying the notebook.  Follow the instructions in the notebook to complete the project.  
+## Getting started with the Jupyter Notebook (using GitBash or Anaconda prompt):  
+`>cd CarND-LaneLines-P1/`  
+`>ls`  
+`>jupyter notebook P1.ipynb`  
+
+
+NOTE: If you have already installed the [CarND Term1 Starter Kit](https://github.com/udacity/CarND-Term1-Starter-Kit/blob/master/README.md) you should be good to go! If not, you should install the starter kit to get started on this project.  
+
+A browser window will appear showing the contents of the current directory.  Click on the file called "P1.ipynb".  Another browser window will appear displaying the notebook.  Follow the instructions in the notebook to commit and contribute to this project using a forked version of this repository.  
 
 
 # Solution Pipeline Overview
@@ -110,6 +127,3 @@ As such, we can draw left lane line between points:
 
 ## Solid Yellow (Left) Lane:  
 ![solid yellow lane](https://github.com/SandeepAswathnarayana/self-driving-car-engineer-nd/blob/master/CarND-LaneLines-P1/GIFs/output_solidYellowLeft.gif)  
-
-
-
