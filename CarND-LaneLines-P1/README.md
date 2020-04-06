@@ -10,6 +10,42 @@ When we drive, we use our eyes to decide where to go.  The lines on the road tha
 
 In this project you will detect lane lines in images using Python and OpenCV.  OpenCV means "Open-Source Computer Vision", which is a package that has many useful tools for analyzing images.  
 
+
+Dependancies & Installation:  
+---
+Use the anaconda prompt to run the following commands.  
+## 1. Python:  
+Download the latest version of Python for Windows OS using this [video](https://www.youtube.com/watch?v=dX2-V2BocqQ) as reference with necessary instructions.  
+pip install python  
+python --version  
+Python 3.7.6  
+
+## 2. Anaconda:  
+Download the most recent version of the Anaconda for Windows OS. Refer to this [blogpost and video](https://medium.com/@GalarnykMichael/install-python-on-windows-anaconda-c63c7c3d1444) to get started.  
+pip install conda  
+conda list (just to make sure the anaconda prompt recognizes the "conda list" command)  
+conda --version  
+4.8.2  
+
+Adding anaconda and python path to your environmental variables:  
+
+Run the following commands on the Anaconda prompt:  
+where python  
+where conda  
+
+Run the following commands on the cmd prompt:  
+SETX PATH "the path to your conda.exe file"  
+SETX PATH "the path to your python.exe file"  
+Close the existing command prompt for the changes to take effect from the SETX command.  
+
+
+If you have already installed the [CarND Term1 Starter Kit](https://github.com/udacity/CarND-Term1-Starter-Kit/blob/master/README.md) you should be good to go! If not, you should install the starter kit to get started on this project.  
+
+`> jupyter notebook`
+
+A browser window will appear showing the contents of the current directory.  Click on the file called "P1.ipynb".  Another browser window will appear displaying the notebook.  Follow the instructions in the notebook to complete the project.  
+
+
 # Solution Pipeline Overview
 ---
 ![Solution Pipeline Overview](https://github.com/SandeepAswathnarayana/self-driving-car-engineer-nd/blob/master/CarND-LaneLines-P1/img/solution%20pipeline%20overview.png)  
@@ -46,16 +82,17 @@ Previous step generates many points consisting of edges. To detect continuous la
 
 
 ## 6. **Extrapolating the left & right lane lines**: 
-A continuous line like Y = a*X + b comprises of two components:
-slope of the line: coefficient “a”
-intercept of the line: coefficient “b”
-Using these two parameters, we can find the top and bottom points on the line, so we can draw them on the image. Here, we use left line as an example, but the same holds true for the right line except its slope has opposite sign.
-A brief illustration of this step:
+A continuous line like Y = a*X + b comprises of two components:  
+slope of the line: coefficient “a”  
+intercept of the line: coefficient “b”  
+Using these two parameters, we can find the top and bottom points on the line, so we can draw them on the image. Here, we use left line as an example, but the same holds true for the right line except its slope has opposite sign.  
+A brief illustration of this step:  
 - Pre-Processing: we start with a bunch of segments from Hough Transform, and calculate slope of each segment (shown as directed blue line in the below): positive slope means the segment belongs to left line, while negative slope means right line. Meanwhile, we can find the minimum Y-coordinate of all points on both lines ( “minY” as shown with the dashed red line in the middle of image as below).
 - Avgerage Slope: starting from a bunch of segments with , we can calculate the slope of each segment. Then average value of them is the average slope of this lane line, that is the coefficient “a” in Y = a*X + b.
 - Average Position: we can compute the average value of X and Y coordinate of all points in the line, which determines the average position of this lane line( as shown with Yellow Dot in the below.)
 Here, using avg. slope “a”, we can easily calculate coefficient “b” using average position (avg_x, avg_y) as: b = avg_y -a*avg_x
-- Determine the Top and Bottom Position: in order to draw lane line on the image, we need to know the start and end points. We call them top and bottom points in the image since the line is vertical.
+- Determine the Top and Bottom Position: in order to draw lane line on the image, we need to know the start and end points. We call them top and bottom points in the image since the line is vertical.  
+
 top_x = (minY -b)/a <note: minY is the minimum Y value of all points>
 bottom_x=(maxY -b)/a = (image.shape[0] -b)/a
 As such, we can draw left lane line between points:
@@ -74,14 +111,5 @@ As such, we can draw left lane line between points:
 ## Solid Yellow (Left) Lane:  
 ![solid yellow lane](https://github.com/SandeepAswathnarayana/self-driving-car-engineer-nd/blob/master/CarND-LaneLines-P1/GIFs/output_solidYellowLeft.gif)  
 
-
-The Project
----
-
-If you have already installed the [CarND Term1 Starter Kit](https://github.com/udacity/CarND-Term1-Starter-Kit/blob/master/README.md) you should be good to go!   If not, you should install the starter kit to get started on this project. ##
-
-`> jupyter notebook`
-
-A browser window will appear showing the contents of the current directory.  Click on the file called "P1.ipynb".  Another browser window will appear displaying the notebook.  Follow the instructions in the notebook to complete the project.  
 
 
