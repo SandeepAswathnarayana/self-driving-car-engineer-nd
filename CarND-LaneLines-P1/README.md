@@ -16,9 +16,9 @@ Dependancies & Installation:
 Use the anaconda prompt to run the following commands.  
 ## 1. Python:  
 Download the latest version of Python for Windows OS using this [video](https://www.youtube.com/watch?v=dX2-V2BocqQ) as reference with necessary instructions.  
-pip install python  
-python --version  
-Python 3.7.6  
+`>pip install python`  
+`>python --version`  
+`>Python 3.7.6`  
 
 ## 2. Anaconda:  
 Download the most recent version of the Anaconda for Windows OS. Refer to this [blogpost and video](https://medium.com/@GalarnykMichael/install-python-on-windows-anaconda-c63c7c3d1444) to get started.  
