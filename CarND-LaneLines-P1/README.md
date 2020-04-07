@@ -38,7 +38,7 @@ Run the following commands on the cmd prompt:
 `>SETX PATH "the path to your python.exe file"`  
 Close the existing command prompt for the changes to take effect from the SETX command.  
 
-## OpenCV2:  
+## 3. OpenCV2:  
 `>python --version`  
 `>pip --version`  
 `>pip install opencv-python`  
@@ -46,13 +46,13 @@ Close the existing command prompt for the changes to take effect from the SETX c
 `>import cv2`  
 `>cv2.__version__`  
 
-## matplotlib:  
+## 4. matplotlib:  
 `>pip install matplotlib`  
 
-## Python Imaging Library (PIL):  
+## 5. Python Imaging Library (PIL):  
 `>pip install pillow`  
 
-## Getting started with the Jupyter Notebook  
+## 6. Getting started with the Jupyter Notebook  
 (using GitBash or Anaconda prompt):  
 `>cd CarND-LaneLines-P1/`  
 `>ls`  
