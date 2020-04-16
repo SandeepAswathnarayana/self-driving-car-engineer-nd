@@ -1,4 +1,4 @@
-# List of all the **Guest Speakers** for the Self-Driving Car Engineer Nanodegree Program:  
+# List of all the *Guest Speakers* for the Self-Driving Car Engineer Nanodegree Program:  
 
 ## Andrei Vatavu  
 Sensor Fusion Engineer, Mercedes-Benz  
