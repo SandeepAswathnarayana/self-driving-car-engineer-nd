@@ -4,7 +4,7 @@
 Sensor Fusion Engineer, Mercedes-Benz  
 Extended Kalman Filters  
 
-## Domink Nuss  
+## Dominik Nuss  
 Sensor Fusion Engineer, Mercedes-Benz  
 Extended Kalman Filters  
 
