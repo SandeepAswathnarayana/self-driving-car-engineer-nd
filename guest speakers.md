@@ -2,9 +2,9 @@
 
 ## Andrei Vatavu  
 Sensor Fusion Engineer, Mercedes-Benz  
-Extended Kalman Filters  
+Concepts: Extended Kalman Filters  
 
 ## Dominik Nuss  
 Sensor Fusion Engineer, Mercedes-Benz  
-Extended Kalman Filters  
+Concepts: Unscented Kalman Filters, Handling non-linear motion i.e., Unscented Kalman Filter (ex: turning car)  
 
