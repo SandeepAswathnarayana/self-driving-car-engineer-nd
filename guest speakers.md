@@ -2,7 +2,7 @@
 
 ## Instructors:  
 
-**David Silver**  
+### David Silver  
 Head of Self-Driving Cars, Udacity  
 
 
