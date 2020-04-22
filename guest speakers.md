@@ -1,8 +1,8 @@
 # List of all the *Guest Speakers, Content Developers* for the Self-Driving Car Engineer Nanodegree Program:  
 
-## Intructors:  
+## Instructors:  
 
-### David Silver  
+**David Silver**  
 Head of Self-Driving Cars, Udacity  
 
 
