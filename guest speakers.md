@@ -2,6 +2,10 @@
 
 ## Content Developers:  
 
+### Aaron Brown:  
+Content Developer, Udacity
+Q&A sessions for all the projects  
+
 ### Vienna Harvey  
 Learning Technologist/Autonomous Vehicle Engineer, Udacity  
 [LinkedIn](https://www.linkedin.com/in/viennaharvey/)  
