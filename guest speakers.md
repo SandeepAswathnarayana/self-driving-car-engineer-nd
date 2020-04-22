@@ -1,10 +1,21 @@
 # List of all the *Guest Speakers, Content Developers* for the Self-Driving Car Engineer Nanodegree Program:  
 
+## Intructors:  
+
+### David Silver  
+Head of Self-Driving Cars, Udacity  
+
+
+
 ## Content Developers:  
 
-### Aaron Brown:  
+### Aaron Brown  
 Content Developer, Udacity
 Q&A sessions for all the projects  
+
+
+
+## Guest Speakers:  
 
 ### Vienna Harvey  
 Learning Technologist/Autonomous Vehicle Engineer, Udacity  
