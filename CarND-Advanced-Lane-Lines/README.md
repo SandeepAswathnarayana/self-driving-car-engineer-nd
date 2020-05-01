@@ -41,14 +41,14 @@ Arrays of object points, corresponding to the location of internal corners of a 
 
 These will then be used by the OpenCV cv2.calibrateCamera() to find the camera intrinsic and extrinsic parameters from several views of a calibration pattern. These parameters will be fed to cv2.undistort function to correct for distortion on any image produced by the same camera.
 
-![step 1](img/step 1.JPG)
+![step 1](img/step%201.JPG)
 
 
 ## Step 2: Apply a distortion correction to raw images.
 
 OpenCV provides cv2.undistort function, which transforms an image to compensate for radial and tangential lens distortion.
 
-[step 2](img/step 2.JPG)
+[step 2](img/step%202.JPG)
 
 The effect of undistort is particularly noticeable, by the change in shape of the car hood at the bottom corners of the image.
 
@@ -56,17 +56,17 @@ The effect of undistort is particularly noticeable, by the change in shape of th
 
 Next, we apply a Sobel filter in the X direction (on a grayscaled image) and apply thresholding to filter out pixels that aren't of interest. We also convert the RGB image to HLS color space and use the S channel to pick out lane lines.
 
-[step 3](https://view5639f7e7.udacity-student-workspaces.com/view/CarND-Advanced-Lane-Lines/img/step%203.JPG)
+[step 3](img/step%203.JPG)
 
 ## Step 4: Apply a perspective transform to rectify binary image ("birds-eye view").
 
 A common task in autonomous driving is to convert the vehicle’s camera view of the scene into a top-down “birds-eye view". We'll use OpenCV's cv2.getPerspectiveTransform() and cv2.getPerspectiveTransform() to do this task.
 
-![warped_straight_lines](https://view5639f7e7.udacity-student-workspaces.com/view/CarND-Advanced-Lane-Lines/img/warped_straight_lines.jpg)
+![warped_straight_lines](img/warped_straight_lines.jpg)
 
 Now, we will use color transform and Sobel differentiation to detect the lane lines in the image. 
 
-![step 4](https://view5639f7e7.udacity-student-workspaces.com/view/CarND-Advanced-Lane-Lines/img/step%204.JPG)
+![step 4](img/step%204.JPG)
 
 ## Step 5: Detect lane pixels and fit to find the lane boundary.
 
@@ -78,7 +78,7 @@ We'll compute a histogram of the bottom half of the image and find the base of t
 Polyfit Using Fit from Previous Frame:
 The Polyfit Using Fit from Previous Frame is another way that performs basically the same task, but alleviates much difficulty of the search process by leveraging a previous fit (from a previous video frame, for example) and only searching for lane pixels within a certain range of that fit.
 
-![step 5](https://view5639f7e7.udacity-student-workspaces.com/view/CarND-Advanced-Lane-Lines/img/step%205.JPG)
+![step 5](img/step%205.JPG)
 
 ## Step 6: Determine the curvature of the lane and vehicle position with respect to center.
 
@@ -86,7 +86,7 @@ The Polyfit Using Fit from Previous Frame is another way that performs basically
 
 From these polynomials, we can convert to real space and determine the radius of curvature of the road and the position of the car within the lane with the code cell as shown in the jupyter notebook.
 
-![step 6](https://view5639f7e7.udacity-student-workspaces.com/view/CarND-Advanced-Lane-Lines/img/steps%206%2C%207%2C%20%26%208.JPG)
+![step 6](img/steps%206%2C%207%2C%20%26%208.JPG)
 
 ## Step 8: Output visual display of the lane boundaries and numerical estimation of lane curvature and vehicle position.
 
@@ -94,7 +94,7 @@ Once the x positions of both of the lane are found, we can find a second degree 
 
 The curvature of the lanes are calculated using the follow equation.
 
-![radius_of_curvature](https://view5639f7e7.udacity-student-workspaces.com/view/CarND-Advanced-Lane-Lines/img/radius_of%20_curvature.jpg)
+![radius_of_curvature](img/radius_of%20_curvature.jpg)
 
 The A and B corresponds to the coefficients of the lane of fit of the lane. However, the result of the calculation will be in unit pixel, and we still need to convert to metric units.
 
