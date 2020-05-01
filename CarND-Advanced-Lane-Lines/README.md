@@ -41,7 +41,7 @@ Arrays of object points, corresponding to the location of internal corners of a 
 
 These will then be used by the OpenCV cv2.calibrateCamera() to find the camera intrinsic and extrinsic parameters from several views of a calibration pattern. These parameters will be fed to cv2.undistort function to correct for distortion on any image produced by the same camera.
 
-![step 1](https://view5639f7e7.udacity-student-workspaces.com/view/CarND-Advanced-Lane-Lines/img/step%201.JPG)
+![step 1](img/step%201.JPG)
 
 
 ## Step 2: Apply a distortion correction to raw images.
