@@ -48,7 +48,7 @@ These will then be used by the OpenCV cv2.calibrateCamera() to find the camera i
 
 OpenCV provides cv2.undistort function, which transforms an image to compensate for radial and tangential lens distortion.
 
-[step 2](img/step%202.JPG)
+![step 2](img/step%202.JPG)
 
 The effect of undistort is particularly noticeable, by the change in shape of the car hood at the bottom corners of the image.
 
@@ -56,7 +56,7 @@ The effect of undistort is particularly noticeable, by the change in shape of th
 
 Next, we apply a Sobel filter in the X direction (on a grayscaled image) and apply thresholding to filter out pixels that aren't of interest. We also convert the RGB image to HLS color space and use the S channel to pick out lane lines.
 
-[step 3](img/step%203.JPG)
+![step 3](img/step%203.JPG)
 
 ## Step 4: Apply a perspective transform to rectify binary image ("birds-eye view").
 
