@@ -41,14 +41,14 @@ Arrays of object points, corresponding to the location of internal corners of a 
 
 These will then be used by the OpenCV cv2.calibrateCamera() to find the camera intrinsic and extrinsic parameters from several views of a calibration pattern. These parameters will be fed to cv2.undistort function to correct for distortion on any image produced by the same camera.
 
-![step 1](img/step%201.JPG)
+![step 1](img/step 1.JPG)
 
 
 ## Step 2: Apply a distortion correction to raw images.
 
 OpenCV provides cv2.undistort function, which transforms an image to compensate for radial and tangential lens distortion.
 
-[step 2](https://view5639f7e7.udacity-student-workspaces.com/view/CarND-Advanced-Lane-Lines/img/step%202.JPG)
+[step 2](img/step 2.JPG)
 
 The effect of undistort is particularly noticeable, by the change in shape of the car hood at the bottom corners of the image.
 
