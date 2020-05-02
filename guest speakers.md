@@ -36,3 +36,6 @@ Concepts: Extended Kalman Filters
 Sensor Fusion Engineer, Mercedes-Benz  
 Concepts: Unscented Kalman Filters, Handling non-linear motion i.e., Unscented Kalman Filter (ex: turning car)  
 
+### Axel Gern  
+Technical Project Lead Autonomous Trucks, Daimler Trucks  
+Udacity Careers  
