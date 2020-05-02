@@ -15,6 +15,13 @@ Q&A sessions for all the projects
 
 
 
+## Alumni Network  
+
+### Jane Sheppard  
+Head of Alumni, Udacity  
+
+
+
 ## Guest Speakers:  
 
 ### Vienna Harvey  
