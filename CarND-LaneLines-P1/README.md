@@ -3,6 +3,8 @@
 
 <img src="examples/laneLines_thirdPass.jpg" width="480" alt="Combined Image" />
 
+For a brief decription of this project including potential shortcomings and possible improvements to the pipeline, please refer to the [Project Overview.md](https://github.com/SandeepAswathnarayana/self-driving-car-engineer-nd/blob/master/CarND-LaneLines-P1/Project%20Overview.md)  
+
 # Overview
 ---
 
@@ -128,6 +130,7 @@ As such, we can draw left lane line between points:
 ![solid white lane](https://github.com/SandeepAswathnarayana/self-driving-car-engineer-nd/blob/master/CarND-LaneLines-P1/GIFs/output_solidWhiteRight.gif)  
 
 ## Solid Yellow (Left) Lane:  
+
 ![solid yellow lane](https://github.com/SandeepAswathnarayana/self-driving-car-engineer-nd/blob/master/CarND-LaneLines-P1/GIFs/output_solidYellowLeft.gif)  
 
 
