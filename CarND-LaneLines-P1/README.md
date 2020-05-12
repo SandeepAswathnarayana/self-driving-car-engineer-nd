@@ -3,7 +3,7 @@
 
 <img src="examples/laneLines_thirdPass.jpg" width="480" alt="Combined Image" />
 
-**NOTE**: For a brief decription of this project including potential shortcomings and possible improvements to the pipeline, please refer to the [Project Overview.md](https://github.com/SandeepAswathnarayana/self-driving-car-engineer-nd/blob/master/CarND-LaneLines-P1/Project%20Overview.md)  
+**NOTE**: Please find the project pipline, implementation overview, potential shortcomings and possible improvements to the pipeline in the [Project Overview.md](https://github.com/SandeepAswathnarayana/self-driving-car-engineer-nd/blob/master/CarND-LaneLines-P1/Project%20Overview.md)  
 
 # Overview
 ---
