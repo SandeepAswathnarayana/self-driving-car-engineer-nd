@@ -50,6 +50,11 @@ Localization is how we determine where our vehicle is in the world. GPS is only 
 Project 6: **Kidnapped Vehicle**  
 In this project, I built a particle filter and combined it with a map to localize a vehicle. To do so, I implemented a 2 dimensional particle filter in C++. Using the particle filter's map, observation data, control data, initial localization information (analogous to what a GPS would provide), I implemented and coded a particle filter that localizes the vehicle within the desired accuracy making sure the particle ran within the specified time of 100 seconds.  
 
+(5). PLANNING  
+To implement this phase, I went through the three stages of planning with the help of the Mercedes-Benz team. First, I applied model-driven and data-driven approaches to predict how other vehicles on the road will behave. Then, I constructed a finite state machine to decide which of several maneuvers your own vehicle should undertake. Finally, I generated a safe and comfortable trajectory to execute that maneuver.  
+
+Project 7: **Highway Driving**  
+I implemented the code for the Path Planning algorithm which considered to be the 'cognitive system' of an autonomous vehicle. I designed a planner that is able to create smooth, safe paths for the car to navigate through traffic on a three-lane highway. To do so, I designed a path planner module which is able to drive a car around a virtual 3 lane highway with a lot of traffic around. By coding the modules, I made sure the car drove at least one complete round of about 4.32 miles in a highway loop with a length of 6946m, changed lanes to pass slower moving traffic, never collided with other vehicles. I met the rqquiremenets of trying to get the car as close to the speed limit of 50mph as possible, but not exceeding this speed limit. To meet the smooth and safe acceleration for the comfort of a passenger, I made sure the car doesn't exceed a maximal acceleration of 10m/s² and a jerk of 10m/s³.  
 
 
 
