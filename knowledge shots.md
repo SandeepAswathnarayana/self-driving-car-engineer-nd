@@ -36,15 +36,9 @@ Project 3: **Traffic Sign Classifier**
 I built a Convolutional Neural Network in TensorFlow to classify traffic sign images from the German Traffic Sign Dataset. I designed and implemented the model architecture for LeNet-5 and VGGNet to train the model and reached an accuracy of >95% on the validation set.  
 
 Project 4: **Behavioral Cloning**  
-The goal of the project was to train a Deep Network to replicate the human steering behavior while driving, thus being able to drive autonomously on a simulator provided by Udacity. To this purpose, the network takes as input the frame of the frontal camera and predicts the steering direction at each instant.  
+I trained a deep neural network built using TensorFlow's Keras API to clone the human steering behavior while driving, thus being able to drive autonomously on a simulator provided by Udacity. The neural network takes as input including the dataset generated from Udacity's Self-Driving Car Simulator, images taken from three different camera angles (Left, Center & Right), steering angle, throttle, brake, and speed during each frame.  
+The neural network is based on NVIDIA's 'End to End Learning for Self-Driving Cars' paper, which has been proven to work in this problem domain.  
 
-In this project, I used a deep neural network (built with Keras) to clone car driving behavior.  
-
-The dataset used to train the network is generated from Udacity's Self-Driving Car Simulator, and it consists of images taken from three different camera angles (Center - Left - Right), in addition to the steering angle, throttle, brake, and speed during each frame.  
-
-The network is based on NVIDIA's paper End to End Learning for Self-Driving Cars, which has been proven to work in this problem domain.  
-
-In this project a simulator provided by Udacity is used to collect data of a human driving behavior. This data contains images of three different cameras mounted on top of the vehicle, as well as the steering angle. A convolution neural network has been build, that receives the center image as input and predicts a steering angle to drive the car autonomously. This is a non-trivial regression tasks, therefore a powerful library was needed to realize it. The solutions is Keras, a Deep learning library that provides a high-level neural networks API, in this case for Tensorflow as a backend.  
 
 (3). SENSOR FUSION  
 Tracking objects over time is a major challenge for understanding the environment surrounding a vehicle. It was a pleasure learning from Sensor fusion engineers from Mercedes-Benz to program fundamental mathematical tools called Kalman filters. I used these filters to predict and determine with certainty the location of other vehicles on the road. Also, I used an advanced technique called Extended Klaman Filter to do the same with difficult-to-follow objects.  
