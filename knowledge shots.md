@@ -13,24 +13,24 @@ These core principles extend into other industries: Robotics, Smart Buildings, I
 
 
 
-## Core Project Ideas in SDC Nanodegree:
-Computer Vision, Deep Learning, Sensor Fusion, Localization & Mapping, Controls, Path Planning, Systems Integration.
+### Core Project Ideas in SDC Nanodegree:  
+Computer Vision, Deep Learning, Sensor Fusion, Localization & Mapping, Controls, Path Planning, Systems Integration.  
 
 
-## Brief Overview:
+### Brief Overview:  
 
-(1). COMPUTER VISION
-Using a combination of cameras and software to find lane lines on difficult roads and to track vehicles.
+(1). COMPUTER VISION  
+Using a combination of cameras and software to find lane lines on difficult roads and to track vehicles.  
 
-Project 1: Finding Lane Lines on the Road
-In this project, I wrote code to identify lane lines on the road, first in an image, and later in a video stream. To complete this project I used the tools I learned about in the Computer Vision course lessons and built upon them.
+Project 1: **Finding Lane Lines on the Road**  
+In this project, I wrote code to identify lane lines on the road, first in an image, and later in a video stream. To complete this project I used the tools I learned about in the Computer Vision course lessons and built upon them.  
 
-Project 2: Advanced Lane Finding
-Building on the previous project, I accomplished my goal of writing a software pipeline to identify the lane boundaries in a video from a front-facing camera on a car.
+Project 2: **Advanced Lane Finding**  
+Building on the previous project, I accomplished my goal of writing a software pipeline to identify the lane boundaries in a video from a front-facing camera on a car.  
 
 
-(2). DEEP LEARNING
-Deep learning is the most important frontier in both machine learning and autonomous vehicle development. I learned from Experts from NVIDIA to build deep neural networks and train them with data from the real world and from the Udacity simulator. You’ll train convolutional neural networks to classify traffic signs, and then train a neural network to drive a vehicle in the simulator!
+(2). DEEP LEARNING  
+Deep learning is the most important frontier in both machine learning and autonomous vehicle development. I learned from Experts from NVIDIA to build deep neural networks and train them with data from the real world and from the Udacity simulator. You’ll train convolutional neural networks to classify traffic signs, and then train a neural network to drive a vehicle in the simulator!  
 
-Project 3: Traffic Sign Classifier
-In this project, you will use what you've learned about deep neural networks and convolutional neural networks to classify traffic signs.
+Project 3: **Traffic Sign Classifier**  
+In this project, you will use what you've learned about deep neural networks and convolutional neural networks to classify traffic signs.  
