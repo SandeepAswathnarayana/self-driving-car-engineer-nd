@@ -19,7 +19,7 @@ Computer Vision, Deep Learning, Sensor Fusion, Localization & Mapping, Controls,
 
 ### Brief Overview:  
 
-(1). __COMPUTER VISION__  
+(1). ___COMPUTER VISION___  
 Using a combination of cameras and software to find lane lines on difficult roads and to track vehicles.  
 
 Project 1: **Finding Lane Lines on the Road**  
