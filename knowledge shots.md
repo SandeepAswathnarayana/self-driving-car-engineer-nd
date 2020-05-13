@@ -17,8 +17,8 @@ These core principles extend into other industries: Robotics, Smart Buildings, I
 Computer Vision, Deep Learning, Sensor Fusion, Localization & Mapping, Path Planning, Control, System Integration.  
 
 
-### Brief Overview of the Projects:  
 
+### Brief Overview of the Projects:  
 (1). COMPUTER VISION  
 In this modeule, I used a combination of cameras and software to find lane lines on difficult roads and to track vehicles.  
 
