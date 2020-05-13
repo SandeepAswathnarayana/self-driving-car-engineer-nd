@@ -1,3 +1,15 @@
+## Market and Leading Tech companies in Autonomous Driving  
+**Leading SDC Companies**: Google, Mercedes, BMW, Toyota, Ford, GM, Nissan  
+Tier-1 Suppliers: Bosch, Continental AG, Aptiv, Mobileye,  
+Chip companies: Nvidia, Intel,  
+Ride sharing companies: Didi, Uber, Udacity, Lyft,  
+
+## Core Project Ideas in SDC Nanodegree:  
+Deep Learning, Sensor Fusion, Localization & Mapping, Controls, Path Planning, Systems Integration.  
+These core principles extend into other industries: Robotics, Smart Buildings, IOTs, Medical Devices, Hardware Monitors, Intelligent Hospitals,  
+
+
+
 
 ### Core Project Ideas in SDC Nanodegree:  
 Computer Vision, Deep Learning, Sensor Fusion, Localization & Mapping, Path Planning, Control, System Integration.  
@@ -58,5 +70,3 @@ This is the capstone of the entire Self-Driving Car Engineer Nanodegree Program!
 
 Project 9: **Programming a Real Self-Driving Car**  
 In this project, we worked on the integration of Carla's 4 major subsystems including SENSOR, PERCEPTION, PLANNING, and CONTROL. We built ROS nodes to implement the core functionality of the autonomous vehicle system, including traffic light detection, traffic light classification, throttle, drive-by-wire, vehicle control, and waypoint following. This software system will be deployed on Carla (Udacity’s Self Driving Lincoln MKZ) to autonomously drive it around a test track meeting all the requitements.  
-
-
