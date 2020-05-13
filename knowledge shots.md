@@ -39,4 +39,13 @@ Project 4: **Behavioral Cloning**
 Using the deep learning skills I gained from the course modules and coding-quizzes, I trained a deep neural network to drive a car like a human does!  
 
 (3). SENSOR FUSION  
+Tracking objects over time is a major challenge for understanding the environment surrounding a vehicle. It was a pleasure learning from Sensor fusion engineers from Mercedes-Benz to program fundamental mathematical tools called Kalman filters. I used these filters to predict and determine with certainty the location of other vehicles on the road. Also, I used an advanced technique called Extended Klaman Filter to do the same with difficult-to-follow objects.  
+
+Project 5: Extended Kalman Filter  
+I implemented an Extended Kalman Filter (EKF) using the Constant Velocity (CV) model in C++ to fuse together data from RADAR and LIDAR. I tracked a bicycle's (that travels around the car) position & velocity using noisy LIDAR and RADAR measurements.  
+
+
+
+
+
 
