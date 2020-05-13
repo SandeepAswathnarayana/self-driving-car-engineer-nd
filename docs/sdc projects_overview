@@ -59,6 +59,3 @@ Project 9: **Programming a Real Self-Driving Car**
 In this project, we worked on the integration of Carla's 4 major subsystems including SENSOR, PERCEPTION, PLANNING, and CONTROL. We built ROS nodes to implement the core functionality of the autonomous vehicle system, including traffic light detection, traffic light classification, throttle, drive-by-wire, vehicle control, and waypoint following. This software system will be deployed on Carla (Udacity’s Self Driving Lincoln MKZ) to autonomously drive it around a test track meeting all the requitements.  
 
 
-
-
-
