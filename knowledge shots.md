@@ -62,7 +62,11 @@ I implemented the code for the Path Planning algorithm which considered to be th
 (6). CONTROL  
 
 Project 8: **PID Controller**  
+I implemented a PID controller to steer the self driving car around the track in Udacity's Simulator. The project was created based on the starter code provided by Udacity. I built the PID controller in C++ based on Udacity's starter code and made sure to keep the car on the lake race track by appropriately adjusting the steering angle to maneuver the vehicle around the track. I computed the appropriate steering angle using the simulator's cross track error (CTE) and the velocity (mph). Also, driving the car safely with a desired speed controlling the throttle.  
+A Proportional–Integral–Derivative (PID) Controller is one of the most common control loop feedback mechanisms. A PID controller continuously calculates an error function (which in our case is the distance from the center of the lane) and applies a correction based on (P), (I), and (D) terms.
 
+(7). SYSTEM INTEGRATION  
+This is the capstone of the entire Self-Driving Car Engineer Nanodegree Program! We’ll introduce Carla, the Udacity self-driving car, and the Robot Operating System that controls her. You’ll work with a team of Nanodegree students to combine what you’ve learned over the course of the entire Nanodegree Program to drive Carla, a real self-driving car, around the Udacity test track!
 
 
 
