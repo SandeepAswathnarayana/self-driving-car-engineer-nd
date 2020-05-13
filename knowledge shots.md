@@ -34,7 +34,6 @@ Deep learning is the most important frontier in both machine learning and autono
 
 Project 3: **Traffic Sign Classifier**  
 I built a Convolutional Neural Network in TensorFlow to classify traffic sign images from the German Traffic Sign Dataset. I designed and implemented the model architecture for LeNet-5 and VGGNet to train the model and reached an accuracy of >95% on the validation set.  
-
 Project 4: **Behavioral Cloning**  
 I trained a deep neural network built using TensorFlow's Keras API to clone the human steering behavior while driving, thus being able to drive autonomously on a simulator provided by Udacity. The neural network takes as input including the dataset generated from Udacity's Self-Driving Car Simulator, images taken from three different camera angles (Left, Center & Right), steering angle, throttle, brake, and speed during each frame.  
 The neural network is based on NVIDIA's 'End to End Learning for Self-Driving Cars' paper, which has been proven to work in this problem domain.  
@@ -46,11 +45,13 @@ Tracking objects over time is a major challenge for understanding the environmen
 Project 5: **Extended Kalman Filter**  
 I implemented an Extended Kalman Filter (EKF) using the Constant Velocity (CV) model in C++ to fuse together data from RADAR and LIDAR. I tracked a bicycle's (that travels around the car) position & velocity using noisy LIDAR and RADAR measurements.  
 
+
 (4). LOCALIZATION  
 Localization is how we determine where our vehicle is in the world. GPS is only accurate to within a few meters. I applied the technique used by Mercedes-Benz engineers in achieving single-digit centimeter-level accuracy. So, I applied the principles of Markov localization to program a particle filter, which uses data and a map to determine the precise location of a vehicle.  
 
 Project 6: **Kidnapped Vehicle**  
 In this project, I built a particle filter and combined it with a map to localize a vehicle. To do so, I implemented a 2 dimensional particle filter in C++. Using the particle filter's map, observation data, control data, initial localization information (analogous to what a GPS would provide), I implemented and coded a particle filter that localizes the vehicle within the desired accuracy making sure the particle ran within the specified time of 100 seconds.  
+
 
 (5). PLANNING  
 To implement this phase, I went through the three stages of planning with the help of the Mercedes-Benz team. First, I applied model-driven and data-driven approaches to predict how other vehicles on the road will behave. Then, I constructed a finite state machine to decide which of several maneuvers your own vehicle should undertake. Finally, I generated a safe and comfortable trajectory to execute that maneuver.  
@@ -60,13 +61,17 @@ I implemented the code for the Path Planning algorithm which considered to be th
 
 
 (6). CONTROL  
+This includes sending steering, acceleration, and brake commands to move the car through the world. Uber ATG will walk you through building a proportional-integral-derivative (PID) controller to actuate the vehicle. A Proportional–Integral–Derivative (PID) Controller is one of the most common control loop feedback mechanisms. A PID controller continuously calculates an error function (which in our case is the distance from the center of the lane) and applies a correction based on P, I, and D terms.  
 
 Project 8: **PID Controller**  
 I implemented a PID controller to steer the self driving car around the track in Udacity's Simulator. The project was created based on the starter code provided by Udacity. I built the PID controller in C++ based on Udacity's starter code and made sure to keep the car on the lake race track by appropriately adjusting the steering angle to maneuver the vehicle around the track. I computed the appropriate steering angle using the simulator's cross track error (CTE) and the velocity (mph). Also, driving the car safely with a desired speed controlling the throttle.  
-A Proportional–Integral–Derivative (PID) Controller is one of the most common control loop feedback mechanisms. A PID controller continuously calculates an error function (which in our case is the distance from the center of the lane) and applies a correction based on (P), (I), and (D) terms.
+
 
 (7). SYSTEM INTEGRATION  
-This is the capstone of the entire Self-Driving Car Engineer Nanodegree Program! We’ll introduce Carla, the Udacity self-driving car, and the Robot Operating System that controls her. You’ll work with a team of Nanodegree students to combine what you’ve learned over the course of the entire Nanodegree Program to drive Carla, a real self-driving car, around the Udacity test track!
+This is the capstone of the entire Self-Driving Car Engineer Nanodegree Program! I worked on implementing and running my code on Carla, the Udacity self-driving car, and the Robot Operating System that controls her. I worked with a team of Nanodegree students to combine what I’ve learned over the course of the entire Nanodegree Program to drive Carla, a real self-driving car, around the Udacity test track!  
+
+Project 9: **Programming a Real Self-Driving Car**  
+In this project, we worked on the integration of Carla's 4 major subsystems including SENSOR, PERCEPTION, PLANNING, and CONTROL. We built ROS nodes to implement the core functionality of the autonomous vehicle system, including traffic light detection and classification, throttle, drive-by-wire, vehicle control, and waypoint following. This software system will be deployed on Carla (Udacity’s Self Driving Lincoln MKZ) to autonomously drive it around a test track.  
 
 
 
