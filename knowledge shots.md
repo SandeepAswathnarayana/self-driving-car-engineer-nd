@@ -33,10 +33,18 @@ Building on the previous project, I accomplished my goal of writing a software p
 Deep learning is the most important frontier in both machine learning and autonomous vehicle development. I learned from Experts from NVIDIA to build deep neural networks and train them with data from the real world and from the Udacity simulator. Later, I trained convolutional neural networks to classify traffic signs, and then trained a neural network to drive a vehicle in the simulator!  
 
 Project 3: **Traffic Sign Classifier**  
-In this project, you will use what you've learned about deep neural networks and convolutional neural networks to classify traffic signs.  
+I built a Convolutional Neural Network in TensorFlow to classify traffic sign images from the German Traffic Sign Dataset. I designed and implemented the model architecture for LeNet-5 and VGGNet to train the model and reached an accuracy of >95% on the validation set.  
 
 Project 4: **Behavioral Cloning**  
-Using the deep learning skills I gained from the course modules and coding-quizzes, I trained a deep neural network to drive a car like a human does!  
+The goal of the project was to train a Deep Network to replicate the human steering behavior while driving, thus being able to drive autonomously on a simulator provided by Udacity. To this purpose, the network takes as input the frame of the frontal camera and predicts the steering direction at each instant.  
+
+In this project, I used a deep neural network (built with Keras) to clone car driving behavior.  
+
+The dataset used to train the network is generated from Udacity's Self-Driving Car Simulator, and it consists of images taken from three different camera angles (Center - Left - Right), in addition to the steering angle, throttle, brake, and speed during each frame.  
+
+The network is based on NVIDIA's paper End to End Learning for Self-Driving Cars, which has been proven to work in this problem domain.  
+
+In this project a simulator provided by Udacity is used to collect data of a human driving behavior. This data contains images of three different cameras mounted on top of the vehicle, as well as the steering angle. A convolution neural network has been build, that receives the center image as input and predicts a steering angle to drive the car autonomously. This is a non-trivial regression tasks, therefore a powerful library was needed to realize it. The solutions is Keras, a Deep learning library that provides a high-level neural networks API, in this case for Tensorflow as a backend.  
 
 (3). SENSOR FUSION  
 Tracking objects over time is a major challenge for understanding the environment surrounding a vehicle. It was a pleasure learning from Sensor fusion engineers from Mercedes-Benz to program fundamental mathematical tools called Kalman filters. I used these filters to predict and determine with certainty the location of other vehicles on the road. Also, I used an advanced technique called Extended Klaman Filter to do the same with difficult-to-follow objects.  
@@ -55,6 +63,17 @@ To implement this phase, I went through the three stages of planning with the he
 
 Project 7: **Highway Driving**  
 I implemented the code for the Path Planning algorithm which considered to be the 'cognitive system' of an autonomous vehicle. I designed a planner that is able to create smooth, safe paths for the car to navigate through traffic on a three-lane highway. To do so, I designed a path planner module which is able to drive a car around a virtual 3 lane highway with a lot of traffic around. By coding the modules, I made sure the car drove at least one complete round of about 4.32 miles in a highway loop with a length of 6946m, changed lanes to pass slower moving traffic, never collided with other vehicles. I met the rqquiremenets of trying to get the car as close to the speed limit of 50mph as possible, but not exceeding this speed limit. To meet the smooth and safe acceleration for the comfort of a passenger, I made sure the car doesn't exceed a maximal acceleration of 10m/s² and a jerk of 10m/s³.  
+
+
+(6). CONTROL  
+
+Project 8: **PID Controller**  
+
+
+
+
+
+
 
 
 
