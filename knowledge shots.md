@@ -19,7 +19,7 @@ Computer Vision, Deep Learning, Sensor Fusion, Localization & Mapping, Controls,
 
 ### Brief Overview:  
 
-(1). ___COMPUTER VISION___  
+(1). COMPUTER VISION  
 Using a combination of cameras and software to find lane lines on difficult roads and to track vehicles.  
 
 Project 1: **Finding Lane Lines on the Road**  
@@ -44,6 +44,11 @@ Tracking objects over time is a major challenge for understanding the environmen
 Project 5: **Extended Kalman Filter**  
 I implemented an Extended Kalman Filter (EKF) using the Constant Velocity (CV) model in C++ to fuse together data from RADAR and LIDAR. I tracked a bicycle's (that travels around the car) position & velocity using noisy LIDAR and RADAR measurements.  
 
+(4). LOCALIZATION  
+Localization is how we determine where our vehicle is in the world. GPS is only accurate to within a few meters. I applied the technique used by Mercedes-Benz engineers in achieving single-digit centimeter-level accuracy. So, I applied the principles of Markov localization to program a particle filter, which uses data and a map to determine the precise location of a vehicle.  
+
+Project 6: **Kidnapped Vehicle**  
+In this project, I built a particle filter and combined it with a map to localize a vehicle. To do so, I implemented a 2 dimensional particle filter in C++. Using the particle filter's map, observation data, control data, initial localization information (analogous to what a GPS would provide), I implemented and coded a particle filter that localizes the vehicle within the desired accuracy making sure the particle ran within the specified time of 100 seconds.  
 
 
 
