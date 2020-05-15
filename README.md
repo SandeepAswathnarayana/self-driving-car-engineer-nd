@@ -1,4 +1,5 @@
 # self-driving-car-engineer-nd
 Self-Driving Car Engineer Nanodegree, Udacity  
 
-NOTE: Just started building this repo. Lot of work ahead!  
+NOTE: This repository is still under development.  
+Just started building it. Lot of work ahead!  
