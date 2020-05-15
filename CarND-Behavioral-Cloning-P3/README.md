@@ -198,4 +198,3 @@ The cropped and normalized version of the output video (.mp4) in 'Autonomous mod
 ![run1.mp4](results/run1.mp4)
 
 All the necessary log files of the trained images while driving the  car in the 'Training mode' can be found under the folder 'run1'
-
