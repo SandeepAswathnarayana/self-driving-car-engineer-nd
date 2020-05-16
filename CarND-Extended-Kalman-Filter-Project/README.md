@@ -82,7 +82,7 @@ Using this submitted code for the first data set you will get the following vaul
 
 The final result of the EKF simulations results (zoomout version) for Dataset 1:
 
-![dataset 1 RMSE_zoomout](./results/dataset 1 RMSE_zoomout.jpg)
+![dataset 1 RMSE_zoomout](https://github.com/SandeepAswathnarayana/self-driving-car-engineer-nd/blob/master/CarND-Extended-Kalman-Filter-Project/results/dataset%201%20RMSE_zoomout.JPG)  
 
 
 ## Visualization Tools
