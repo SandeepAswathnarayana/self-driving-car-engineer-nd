@@ -416,4 +416,10 @@ In all cases, the model was very certain (80% - 100%).
 Using VGGNet, we've been able to reach a very high accuracy rate. We can observe that the models saturate after nearly 10 epochs, so we can save some computational resources and reduce the number of epochs to 10.
 We can also try other preprocessing techniques to further improve the model's accuracy..
 We can further improve on the model using hierarchical CNNs to first identify broader groups (like speed signs) and then have CNNs to classify finer features (such as the actual speed limit)
-This model will only work on input examples where the traffic signs are centered in the middle of the image. It doesn't have the capability to detect signs in the image corners.
+This model will only work on input examples where the traffic signs are centered in the middle of the image. It doesn't have the capability to detect signs in the image corners.  
+
+## References & Acknowledgement:  
+- [Demo video](https://www.youtube.com/watch?v=rpxZ87YFg0M&feature=youtu.be) with Q&A session by David Silver, Head of Self-Driving Cars at Udacity.  
+- Course material & Quizzes from the "Behavioral Cloning" part of this nanodegree.  
+- Other relevant sources: (OpenCV Python Tutorial)[], Bogposts from [Medium](http://medium.com/), [OpenCV Tutorials](https://opencv-python-tutroals.readthedocs.io/en/latest/py_tutorials/py_tutorials.html).  
+- Stackoverflow and Stackexchange: The expert community groups and channels under [Stack Overflow](https://stackoverflow.com/) and [Stack Exchange](https://stackexchange.com/) has greatly helped me with optimal use of functions and debugging the code.  
