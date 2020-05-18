@@ -139,8 +139,8 @@ Success! Your particle filter passed!
 ```
 ## Results:
 
-After having run the ./run.sh command, we should be expecting a message: "Listening to port 4567", which signifies that the code has been successfuly copiled and we are good to run the simulator.
-![listening to port 4567](./results/listening to port 4567_kidnapped vehicle.JPG)
+After having run the ./run.sh command, we should be expecting a message: "Listening to port 4567", which signifies that the code has been successfuly copiled and we are good to run the simulator.  
+![listening to port 4567](https://github.com/SandeepAswathnarayana/self-driving-car-engineer-nd/blob/master/CarND-Kidnapped-Vehicle-Project/results/listening%20to%20port%204567_kidnapped%20vehicle.JPG)  
 
 After running the simulator successfully, we should be expecting a message: "Success! Your particle filter passed!" on the simulator screen.
 ![success msg](./results/success msg.JPG)
