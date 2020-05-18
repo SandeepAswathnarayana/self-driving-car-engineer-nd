@@ -53,8 +53,9 @@ All you will need to submit is your `src` directory. You should probably do a `g
 
 ![pros and cons](./img/filter_comparison.png)
 
-## Project Introduction
-![project overview](./results/kidnapped vehicle_running.JPG)
+## Project Introduction  
+![project overview](https://github.com/SandeepAswathnarayana/self-driving-car-engineer-nd/blob/master/CarND-Kidnapped-Vehicle-Project/results/kidnapped%20vehicle_running.JPG)  
+
 Your robot has been kidnapped and transported to a new location! Luckily it has a map of this location, a (noisy) GPS estimate of its initial location, and lots of (noisy) sensor and control data.
 
 In this project you will implement a 2 dimensional particle filter in C++. Your particle filter will be given a map and some initial localization information (analogous to what a GPS would provide). At each time step your filter will also get observation and control data.
