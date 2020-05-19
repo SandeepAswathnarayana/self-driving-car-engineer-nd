@@ -111,7 +111,7 @@ where mx and my corresponds to the ratio of pixels to meter in the x and y direc
 The distance that the car is away from the center of the lane is calculated by subtracting the center of the two lanes from the center of the image. The result is in unit pixels so we then multiply by the mx ratio mentioned above
 
 
-## Video Pipeline:
+## Results & Video Pipeline:
 
 ![final_result_demo](img/final_result_demo.gif)
 
