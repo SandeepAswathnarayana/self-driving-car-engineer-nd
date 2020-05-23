@@ -19,7 +19,7 @@ There are three core components to path planning: 1) Predicting what other vehic
 
 To make sure whether the chosen path is the best and does not violate any safety or comfort guidelines, follow the brief template:
 
-![safety and comfort_guidelines](./img/safety and comfort_guidelines.png)
+![safety and comfort_guidelines](https://github.com/SandeepAswathnarayana/self-driving-car-engineer-nd/blob/master/CarND-Path-Planning-Project/img/safety%20and%20comfort_guidelines.png)  
 
 #### Trajectory Generation
 
