@@ -29,7 +29,7 @@ The trajectory generation part which is the most difficult is covered as part of
 - Take the top two points from the previous trajectory in global X,Y coordinates.
 - Project the points ahead in 30m, 60m and 90m spaces from car’s current position. Convert from Fernet (car_s, car_d) to Global XY.
 - Convert car’s global XY coordinates to local XY co-ordinates. This helps simplify math a lot.
-![cartesian vs frenet coordinates](./img/cartesian vs frenet coordinates.png)
+![cartesian vs frenet coordinates](https://github.com/SandeepAswathnarayana/self-driving-car-engineer-nd/blob/master/CarND-Path-Planning-Project/img/cartesian%20vs%20frenet%20coordinates.png)  
 
 - This gives 5 reference points which can be supplied to tk:spline() function to return a 5th degree polynomial.
 - With this polynomial generate new points in local XY co-ordinates. The Y values on the spline can simply be read from corresponding X values on the X-axis as shown.
