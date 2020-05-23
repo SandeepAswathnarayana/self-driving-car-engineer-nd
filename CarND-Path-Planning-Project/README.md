@@ -35,7 +35,7 @@ The trajectory generation part which is the most difficult is covered as part of
 - With this polynomial generate new points in local XY co-ordinates. The Y values on the spline can simply be read from corresponding X values on the X-axis as shown.
 - Append the points to the previous trajectory after converting back to Global XY co-ordinates.
 
-![min_1D jerk_trajectories](./img/min_1D jerk_trajectories.png)
+![min_1D jerk_trajectories](https://github.com/SandeepAswathnarayana/self-driving-car-engineer-nd/blob/master/CarND-Path-Planning-Project/img/min_1D%20jerk_trajectories.png)  
 
 The cost function design penalize the actions based on the guidelines provided:
 ![cost_function_design](./img/cost_function_design.png)
