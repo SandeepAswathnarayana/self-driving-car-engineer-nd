@@ -41,7 +41,7 @@ The cost function design penalize the actions based on the guidelines provided:
 ![cost_function_design](./img/cost_function_design.png)
 
 Here are some of the typical cost functions mentioned in the coursework, that are being used by Udacity's Carla:
-![typical cost functions_carla](./img/typical cost functions_carla.png)
+![typical cost functions_carla](https://github.com/SandeepAswathnarayana/self-driving-car-engineer-nd/blob/master/CarND-Path-Planning-Project/img/typical%20cost%20functions_carla.jpeg)  
 
 Finally, Converting the Path to what the Controller Understands:
 
