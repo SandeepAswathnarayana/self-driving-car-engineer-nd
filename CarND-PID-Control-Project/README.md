@@ -119,7 +119,7 @@ To tune a PID use the following steps:
 5. Set P and D to the last stable values.
 6. Increase the I gain until it brings you to the setpoint with the number of oscillations desired (normally zero but a quicker response can be had if you don't mind a couple oscillations of overshoot).
 
-This [thread on stackexchange](https://robotics.stackexchange.com/questions/167/what-are-good-strategies-for-tuning-pid-loops) has briefs a few general strategies that work well to get a stable system that converges to the right solution.
+This [thread on stackexchange](https://robotics.stackexchange.com/questions/167/what-are-good-strategies-for-tuning-pid-loops) provides a brief overview of a few general strategies that work well to get a stable system that converges to the right solution.
 
 ### Results and Further Observations
 
