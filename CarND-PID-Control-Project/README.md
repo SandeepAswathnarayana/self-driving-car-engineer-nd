@@ -139,7 +139,7 @@ Throttle was kept at 0.3.
 
 ![PID_Controller_sharp curve](https://github.com/SandeepAswathnarayana/self-driving-car-engineer-nd/blob/master/CarND-PID-Control-Project/results/PID_Controller_sharp%20curve.JPG)  
 
-I did consider somehow making the steering proportional to the speed as well but have not yet found the right approach.
+I believe I haven't cracked the right approach in handling steering angle at higher speed; nevertheless, I did work a way around making sure the steering angle is proportional to the speed.
 
 **The gif below shows a successful run by the car on the track adhering to the P, I, D values:**
 
