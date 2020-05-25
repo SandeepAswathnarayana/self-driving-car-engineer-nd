@@ -136,13 +136,13 @@ Throttle was kept at 0.3.
 
 The following screenshot from the simiulation video shows the steering angle while taking taking a steep left turn.
 
-![PID_Controller_sharp curve](results/PID_Controller_sharp curve.JPG)
+![PID_Controller_sharp curve](https://github.com/SandeepAswathnarayana/self-driving-car-engineer-nd/blob/master/CarND-PID-Control-Project/results/PID_Controller_sharp%20curve.JPG)  
 
 I did consider somehow making the steering proportional to the speed as well but have not yet found the right approach.
 
 The gif below shows a successful run the car on a small portion of the track:
 
-![GIF_output](results/GIF_output.gif)
+![GIF_output](results/GIF_output.gif)  
 
 
 ## Editor Settings
