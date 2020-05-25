@@ -6,14 +6,15 @@ Self-Driving Car Engineer Nanodegree Program
 #### How a PID controller works?
 
 ![PID Controller_fb loop](https://github.com/SandeepAswathnarayana/self-driving-car-engineer-nd/blob/master/CarND-PID-Control-Project/img/PID%20Controller_fb%20loop.png)  
-                                               Featured Image Credit: Wikipedia
+                                               Featured Image Credit: Wikipedia  
+                                               
 
 The general idea of how PID controller works is actually quite simple. In the following block diagram we can look at r(t) as desired position in traffic lane which comes from our localization and path planning systems. Position (ground truth) in traffic lane is measured using sensor(s) and is represented by y(t) . An error value e(t) would be a difference between r(t) and y(t).
 The PID controller is trying to minimize the error rate e(t) over time by applying an adjustment or control variable u(t) (in our case this is steering angle).
 Correction value of u(t) is defined with Proportional, Integral and Derivative coefficients.
 
 
-The feedback components of PID controller:
+The feedback components of PID controller:  
 
 ![PID Coefficients](https://github.com/SandeepAswathnarayana/self-driving-car-engineer-nd/blob/master/CarND-PID-Control-Project/img/PID%20Coefficients.png)  
 
