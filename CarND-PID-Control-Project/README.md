@@ -14,7 +14,7 @@ The PID controller is trying to minimize the error rate e(t) over time by applyi
 Correction value of u(t) is defined with Proportional, Integral and Derivative coefficients.
 
 
-The feedback components of PID controller:  
+**The feedback components of PID controller:**  
 
 ![PID Coefficients](https://github.com/SandeepAswathnarayana/self-driving-car-engineer-nd/blob/master/CarND-PID-Control-Project/img/PID%20Coefficients.png)  
 
@@ -85,7 +85,7 @@ ability to run a loop in the code, and therefore had to rely on callbacks from a
 
 Twiddle is performed for as long as the sum of deltas for all components is greater than a small epsilon value.
 
-### Speed control
+### Speed Control
 Besides of implementing a PID controller to define steering values for the car I also did the same for controlling the car speed. To make sure the car doesn't drive towards the edges, I had to stick with an average speed of ~35mph in my simulation. There's definitely room for tuninng the hyperparameters so that the car could try higher speeds than the default 30mph while still keeping its position to the center of the road.
 
 ### Parameters P, I, and D
@@ -135,13 +135,13 @@ I am not sure but it seems inverting the scale of values between the initial _PI
 
 Throttle was kept at 0.3.
 
-The following screenshot from the simulation video shows the steering angle right before taking a steep left turn.
+**The following screenshot from the simulation video shows the steering angle right before taking a steep left turn.**
 
 ![PID_Controller_sharp curve](https://github.com/SandeepAswathnarayana/self-driving-car-engineer-nd/blob/master/CarND-PID-Control-Project/results/PID_Controller_sharp%20curve.JPG)  
 
 I did consider somehow making the steering proportional to the speed as well but have not yet found the right approach.
 
-The gif below shows a successful run by the car on the track adhering to the P, I, D values:
+**The gif below shows a successful run by the car on the track adhering to the P, I, D values:**
 
 ![GIF_output](results/GIF_output.gif)  
 
