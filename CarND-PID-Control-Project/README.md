@@ -5,7 +5,7 @@ Self-Driving Car Engineer Nanodegree Program
 ## Overview
 #### How a PID controller works?
 
-![PID Controller_fb loop](img/PID Controller_fb loop.png)
+![PID Controller_fb loop](https://github.com/SandeepAswathnarayana/self-driving-car-engineer-nd/blob/master/CarND-PID-Control-Project/img/PID%20Controller_fb%20loop.png)  
 Source: Wikipedia
 
 The general idea of how PID controller works is actually quite simple. In the following block diagram we can look at r(t) as desired position in traffic lane which comes from our localization and path planning systems. Position (ground truth) in traffic lane is measured using sensor(s) and is represented by y(t) . An error value e(t) would be a difference between r(t) and y(t).
