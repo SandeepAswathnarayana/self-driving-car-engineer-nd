@@ -6,7 +6,7 @@ Self-Driving Car Engineer Nanodegree Program
 #### How a PID controller works?
 
 ![PID Controller_fb loop](https://github.com/SandeepAswathnarayana/self-driving-car-engineer-nd/blob/master/CarND-PID-Control-Project/img/PID%20Controller_fb%20loop.png)  
-Source: Wikipedia
+                                               Featured Image Credit: Wikipedia
 
 The general idea of how PID controller works is actually quite simple. In the following block diagram we can look at r(t) as desired position in traffic lane which comes from our localization and path planning systems. Position (ground truth) in traffic lane is measured using sensor(s) and is represented by y(t) . An error value e(t) would be a difference between r(t) and y(t).
 The PID controller is trying to minimize the error rate e(t) over time by applying an adjustment or control variable u(t) (in our case this is steering angle).
@@ -15,7 +15,7 @@ Correction value of u(t) is defined with Proportional, Integral and Derivative c
 
 The feedback components of PID controller:
 
-![PID Coefficients](img/PID Coefficients.JPG)
+![PID Coefficients](https://github.com/SandeepAswathnarayana/self-driving-car-engineer-nd/blob/master/CarND-PID-Control-Project/img/PID%20Coefficients.png)  
 
 1. Proportional Control: 'P' is the component that is proportional to the current track error. It has direct impact on the trajectory because it makes the car to “correct” in the same proportion of the error in the opposite direction. There’s a natural overshooting effect that will cause the car to swivel hard left and right eventually driving the car off-track. So, larger values of P will cause the car to oscillate faster.
 2. Derivative Control — A way to cancel the overshoot effect is to introduce a temporal derivative of the CTE. 'D' is the best estimate of the future trend of the error, based on its current rate of change. When the car has turned enough to reduce the crosstrack error, 'D' will inform the controller that the error has already reduced.
