@@ -2,7 +2,7 @@
 Self-Driving Car Engineer Nanodegree Program
 
 ### Overview
-'Path planning' is the brains of a self-driving car. It’s how a vehicle decides how to get where it’s going, both at the macro and micro levels. You’ll learn about three core components of path planning: environmental prediction, behavioral planning, and trajectory generation.
+'Path Planning' is the cognitive part (brain) of a self-driving car. This includes how a vehicle might decide where it’s going, both at the macro and micro levels. You will learn about three core components of path planning: environmental prediction, behavioral planning, and trajectory generation.
 
 The constraints of the project are as follows:  
 - No collision at any time with other vehicles
