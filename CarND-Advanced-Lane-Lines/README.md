@@ -115,7 +115,7 @@ The distance that the car is away from the center of the lane is calculated by s
 
 ![final_result_demo](img/final_result_demo.gif)
 
-Please refer to this [link](project_video_output.mp4) for the complete project_video_output
+**Please refer to [project_video_output](project_video_output.mp4) for the full video output**  
 
 NOTE: Considering my concrete schedule, I haven't explored or given the "challenge_video" and "harder_challenge_video" a try. I'd greatly appreciate an opportunity to learn about the necessary 'functions' and 'hyperparameter tuning' to reduce the distortion and obtain an optimal solution for the challenge videos. Thanks for your time and consideration.
 
