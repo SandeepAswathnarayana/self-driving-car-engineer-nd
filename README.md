@@ -9,4 +9,4 @@ Self-Driving Car Engineer Nanodegree, Udacity
 - Should you have any inputs that you want to share with me (or) provide me with any relevant feedback on my projects or approach, I’d be glad to hear from you. Please feel free to connect with me on **[Twitter](https://twitter.com/ThisIsSandeepA)**, **[LinkedIn](https://www.linkedin.com/in/sandeep-a/)**, or follow me on **[GitHub](https://github.com/SandeepAswathnarayana)**.  
 
 
-Also, this repository is still under development. Any potential improvements or iterations could be added in the future.  
+Also, this repository is still under development. Any potential improvements or iterations would be added in the future.  
