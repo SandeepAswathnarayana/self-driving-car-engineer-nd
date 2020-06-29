@@ -6,7 +6,7 @@ Computer Vision, Deep Learning, Sensor Fusion, Localization & Mapping, Path Plan
 
 # Brief Overview of the Projects:  
 ### (1). COMPUTER VISION  
-In this modeule, I used a combination of cameras and software to find lane lines on difficult roads and to track vehicles.  
+In this module, I used a combination of cameras and software to find lane lines on difficult roads and to track vehicles.  
 
 Project 1: **Finding Lane Lines on the Road**  
 In this project, I wrote code to identify lane lines on the road, first in an image, and later in a video stream. To complete this project I used Python, OpenCV and other tools I learned about in the Computer Vision course lessons and later built upon them.  
