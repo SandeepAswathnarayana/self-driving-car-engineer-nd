@@ -140,7 +140,7 @@ Note: There is known local system's setting issue with replacing "," with "." wh
 python drive.py model.h5 run1
 ```
 All the image files being added to the run1 folder:
-![running drive file](results/running drive file.JPG)
+![drive.py_compiling](https://github.com/SandeepAswathnarayana/self-driving-car-engineer-nd/blob/master/CarND-Behavioral-Cloning-P3/results/drive.py_compiling.JPG)  
 
 The fourth argument, `run1`, is the directory in which to save the images seen by the agent. If the directory already exists, it'll be overwritten.
 
@@ -167,7 +167,7 @@ The image file name is a timestamp of when the image was seen. This information 
 ```sh
 python video.py run1
 ```
-![running video and run1](results/running video and run1.JPG)
+![video.py run1_compiling](https://github.com/SandeepAswathnarayana/self-driving-car-engineer-nd/blob/master/CarND-Behavioral-Cloning-P3/results/video.py%20run1_compiling.JPG)  
 
 Creates a video based on images found in the `run1` directory. The name of the video will be the name of the directory followed by `'.mp4'`, so, in this case the video will be `run1.mp4`.
 
@@ -176,7 +176,7 @@ Optionally, one can specify the FPS (frames per second) of the video:
 ```sh
 python video.py run1 --fps 48
 ```
-![converting the video to run at 48 fps](results/converting the video to run at 48 fps.JPG)  
+![converting the video to run at 48 fps](https://github.com/SandeepAswathnarayana/self-driving-car-engineer-nd/blob/master/CarND-Behavioral-Cloning-P3/results/converting%20the%20video%20to%20run%20at%2048%20fps.JPG)  
 
 Will run the video at 48 FPS. The default FPS is 60.
 
