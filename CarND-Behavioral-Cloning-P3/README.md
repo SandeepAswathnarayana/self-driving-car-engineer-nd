@@ -192,7 +192,7 @@ Will run the video at 48 FPS. The default FPS is 60.
 ## Results
 
 The trained model performing in the 'Autonomous mode' is as shown in the video under the results folder:
-![autonomous mode_simulator output](results/autonomous mode_simulator output.webm)
+![autonomous mode_simulator output](https://github.com/SandeepAswathnarayana/self-driving-car-engineer-nd/blob/master/CarND-Behavioral-Cloning-P3/results/autonomous%20mode_simulator%20output.gif)  
 
 The cropped and normalized version of the output video (.mp4) in 'Autonomous mode' is as shown below:
 ![run1.mp4](results/run1.mp4)
