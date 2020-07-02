@@ -98,7 +98,7 @@ During the entire training process, overfitting is not an issue. The validation 
 3. Training Process
 At first, the cropping process is a layer within the model and is not a separate preprocessing step. For this reason the model is accepting the full image (320x160) as input. The model trained with Udacity's dataset is doing reasonable across different sections of the track. 
 
-![behavioral cloning_training.JPG](results/behavioral cloning_training.JPG)
+![behavioral cloning_training.JPG](https://github.com/SandeepAswathnarayana/self-driving-car-engineer-nd/blob/master/CarND-Behavioral-Cloning-P3/results/behavioral%20cloning_training.JPG)  
 
 
 ## Dependencies
