@@ -176,7 +176,7 @@ Optionally, one can specify the FPS (frames per second) of the video:
 ```sh
 python video.py run1 --fps 48
 ```
-![converting the video to run at 48 fps](results/converting the video to run at 48 fps.JPG)
+![converting the video to run at 48 fps](results/converting the video to run at 48 fps.JPG)  
 
 Will run the video at 48 FPS. The default FPS is 60.
 
@@ -198,4 +198,4 @@ The trained model performing in the 'Autonomous mode' is as shown in the video u
 The cropped and normalized version of the output video (.mp4) in 'Autonomous mode' is as shown below:  
 ![run1.mp4](https://github.com/SandeepAswathnarayana/self-driving-car-engineer-nd/blob/master/CarND-Behavioral-Cloning-P3/results/run1.gif)  
 
-All the necessary log files of the trained images while driving the  car in the Training mode can be found under the folder 'run1'
+All the necessary log files of the trained images while driving the  car in the 'Training mode' can be found under the folder 'run1'
