@@ -15,7 +15,7 @@ Image: Udacity Self-Driving Car Nanodegree
 
 ## Basic Build Instructions
 
-If you have already installed all the necessary dependencies for the projects in term 2 you should be good to go! If not, you should install them to get started on this project => [Getting Started for Term 2](../term2_How_to_get_started). 
+If you have already installed all the necessary dependencies for the projects in term 2 you should be good to go! If not, you should install them to get started on this project: [Getting Started for Term 2](../term2_How_to_get_started). 
 
 1. Clone this repo.
 2. Make a build directory: `mkdir build && cd build`
