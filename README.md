@@ -57,7 +57,7 @@ I implemented the code for the Path Planning algorithm which is considered to be
 ### (6). CONTROL  
 This includes sending steering, acceleration, and brake commands to move the car through the world. Uber ATG walked me through building a proportional-integral-derivative (PID) controller to actuate the vehicle. A Proportional–Integral–Derivative (PID) Controller is one of the most common control loop feedback mechanisms. A PID controller continuously calculates an error function (which in our case is the distance from the center of the lane) and applies a correction based on these P, I, and D terms.  
 
-Project 8: **PID Controller**  
+Project 8: [**PID Controller**](https://github.com/SandeepAswathnarayana/self-driving-car-engineer-nd/tree/master/CarND-PID-Control-Project)  
 I implemented a PID controller to steer the self driving car around the track in Udacity's Simulator. I built the PID controller in C++ based on Udacity's starter code and made sure to keep the car on the lake race track by appropriately adjusting the steering angle to maneuver the vehicle around the track. I computed the appropriate steering angle using the simulator's Cross Track Error (CTE) and the Velocity (mph). Also, driving the car safely with a desired speed by controlling the throttle.  
 
 
