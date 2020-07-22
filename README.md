@@ -26,7 +26,7 @@ Building on the previous project, I accomplished my goal of writing a software p
 ### (2). DEEP LEARNING  
 Deep learning is the most important frontier in both machine learning and autonomous vehicle development. I learned from Experts from NVIDIA to build deep neural networks and train them with data from the real world and from the Udacity simulator. Later, I trained convolutional neural networks to classify traffic signs, and then trained a neural network to drive a vehicle in the simulator.  
 
-Project 3: **Traffic Sign Classifier**  
+Project 3: [**Traffic Sign Classifier**](https://github.com/SandeepAswathnarayana/self-driving-car-engineer-nd/tree/master/CarND-Traffic-Sign-Classifier-Project)  
 I built a Convolutional Neural Network in TensorFlow to classify traffic sign images from the German Traffic Sign Dataset. I designed and implemented the model architecture for LeNet-5 and VGGNet to train the model and reached an accuracy of >95% on the validation set.  
 
 Project 4: **Behavioral Cloning**  
