@@ -50,7 +50,7 @@ In this project, I built a particle filter and combined it with a map to localiz
 ### (5). PLANNING  
 To implement this phase, I went through the three stages of planning with the help of the Mercedes-Benz team. First, I applied model-driven and data-driven approaches to predict how other vehicles on the road will behave. Then, I constructed a finite state machine to decide which of several maneuvers my own vehicle should undertake. Finally, I generated a safe and comfortable trajectory to execute that maneuver.  
 
-Project 7: **Highway Driving**  
+Project 7: [**Highway Driving**](https://github.com/SandeepAswathnarayana/self-driving-car-engineer-nd/tree/master/CarND-Path-Planning-Project)  
 I implemented the code for the Path Planning algorithm which is considered to be the 'cognitive system' of an autonomous vehicle. I designed a planner that is able to create smooth, safe paths for the car to navigate through traffic on a three-lane highway. To do so, I designed a path planner module which is able to drive a car around a virtual 3 lane highway with a lot of traffic around. By coding the modules, I made sure the car drove at least one complete round of about 4.32 miles in a highway loop with a length of 6952m, changed lanes to pass slower moving traffic, never collided with other vehicles. I met the requiremenets of trying to get the car as close to the speed limit of 50mph as possible, while still not exceeding this speed limit. To meet the smooth and safe acceleration for the comfort of the passengers, I made sure the car doesn't exceed a maximum acceleration of 10m/s² and a jerk of 10m/s³.  
 
 
