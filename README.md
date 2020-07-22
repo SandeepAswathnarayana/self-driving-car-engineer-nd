@@ -64,9 +64,9 @@ I implemented a PID controller to steer the self driving car around the track in
 ### (7). SYSTEM INTEGRATION  
 This is the capstone of the entire Self-Driving Car Engineer Nanodegree Program! I worked on implementing and running my code on Carla, the Udacity self-driving car, and the Robot Operating System that controls her. I worked with a team of Nanodegree students to combine what I’ve learned over the course of the entire Nanodegree Program to drive Carla, a real self-driving car, around the Udacity test track.  
 
-Project 9: **Programming a Real Self-Driving Car**  
-In this project, we worked on the integration of Carla's 4 major subsystems including SENSOR, PERCEPTION, PLANNING, and CONTROL. We built ROS nodes to implement the core functionality of the autonomous vehicle system, including traffic light detection, traffic light classification, throttle, drive-by-wire, vehicle control, and waypoint following. This software system will be deployed on Carla (Udacity’s Self Driving Lincoln MKZ) to autonomously drive it around a test track meeting all the requitements.  
+Project 9: [**Programming a Real Self-Driving Car**](https://github.com/SandeepAswathnarayana/Udacity-SDCND-Programming-a-Real-Self-Driving-Car)  
+I initiated this Final System Integration project and spearheaded a team of 4 where we worked on the integration of Carla's 4 major subsystems including SENSOR, PERCEPTION, PLANNING, and CONTROL. We built ROS nodes to implement the core functionality of the autonomous vehicle system, including traffic light detection, traffic light classification, throttle, drive-by-wire, vehicle control, and waypoint following. This software system will be deployed on Carla (Udacity’s Self Driving Lincoln MKZ) to autonomously drive it around a test track meeting all the requitements.  
 
 
 
-Also, this repository is still under development. Any potential improvements or iterations would be added in the future.  
+Please note that this repository is still under development. Any potential improvements or iterations would be added in the future.  
