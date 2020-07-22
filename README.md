@@ -36,7 +36,7 @@ I trained a deep neural network built using TensorFlow's Keras API to clone the 
 ### (3). SENSOR FUSION  
 Tracking objects over time is a major challenge for understanding the environment surrounding a vehicle. It was a pleasure learning from Sensor fusion engineers from Mercedes-Benz to program fundamental mathematical tools called Kalman filters. I used these filters to predict and determine with certainty the location of other vehicles on the road. Also, I used an advanced technique called Extended Klaman Filter to do the same with difficult-to-follow objects.  
 
-Project 5: **Extended Kalman Filter**  
+Project 5: [**Extended Kalman Filter**](https://github.com/SandeepAswathnarayana/self-driving-car-engineer-nd/tree/master/CarND-Extended-Kalman-Filter-Project)  
 Kalman Filter is a mathematical approach of determining the state of the system and it clarifies the state using the measurement information. In this project, I implemented an Extended Kalman Filter (EKF) using the Constant Velocity (CV) model in C++ to fuse together data from RADAR and LIDAR. I tracked a bicycle's (that travels around the car) position & velocity using noisy LIDAR and RADAR measurements.  
 
 
