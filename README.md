@@ -8,11 +8,11 @@
 - Should you have any inputs that you want to share with me (or) provide me with any relevant feedback on my projects or approach, I’d be glad to hear from you. Please feel free to connect with me on **[Twitter](https://twitter.com/ThisIsSandeepA)**, **[LinkedIn](https://www.linkedin.com/in/sandeep-a/)**, or follow me on **[GitHub](https://github.com/SandeepAswathnarayana)**.  
 
 
-# Core Project Ideas in SDC Nanodegree:  
+# Core Project Ideas in SDC Nanodegree  
 Computer Vision, Deep Learning, Sensor Fusion, Localization & Mapping, Path Planning, Control, System Integration.  
 
 
-# Brief Overview of the Projects:  
+# Brief Overview of the Projects  
 ### (1). COMPUTER VISION  
 In this module, I used a combination of cameras and software to find lane lines on difficult roads and to track vehicles.  
 
