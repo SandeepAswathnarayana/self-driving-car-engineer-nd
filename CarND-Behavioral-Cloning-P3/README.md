@@ -25,10 +25,10 @@ The project has the following five major files:
 * drive.py (script to drive the car - feel free to modify this file)
 * model.h5 (a trained Keras model)
 * a report writeup file (either markdown or pdf)
-* video.mp4 (a video recording of your vehicle driving autonomously around the track for at least one full lap)
+* video.mp4 (a video recording of your vehicle driving autonomously around the track for at least one full lap)  
 Additional helper function files in this project include:
 * data_Augment.py
-* datapipe.py
+* datapipe.py  
 All the results (screenshots, videos, image log) can be found in the following folders:
 * run1
 * results
@@ -78,7 +78,7 @@ Data Preprocessing, Data Augmentation, Shear Transformations, etc. are all to be
 I'd rather work my way around, spend some time and produce the results in a presentable format than adding what I have (as of now) to this project repo.
 
 ## Training Strategy
-1. Training Pipeline
+1. **Training Pipeline**  
 For training purpose, I use AWS's g2.x2large instance with attached GPU.
 
 Since the dataset is huge, it makes sense to utilize python's generator pattern to feed the batch of images, after preprocessing, to the model to avoiding preloading the entire dataset into a machine's memory.
@@ -92,10 +92,10 @@ I have created two generators for the training set and validation set. The batch
 `validation_gen = g.sample_generator(validation_samples, DATA_PATH, batch_size=BATCH_SIZE, augment_enable=False)`
 I used 'Adam' optimizer with learning rate as 1e-3 and train for 1 epoch(s) with the number of images equal to that in the dataset per epoch.
 
-2. Hyperparameter Tuning
+2. **Hyperparameter Tuning**  
 During the entire training process, overfitting is not an issue. The validation error is well under training error, such that model seems rather to be underfitting. This is resolved by extending the number of epoch to train for. Data augmentation certainty helps to prevent overfitting.
 
-3. Training Process
+3. **Training Process**  
 At first, the cropping process is a layer within the model and is not a separate preprocessing step. For this reason the model is accepting the full image (320x160) as input. The model trained with Udacity's dataset is doing reasonable across different sections of the track. 
 
 ![behavioral cloning_training.JPG](https://github.com/SandeepAswathnarayana/self-driving-car-engineer-nd/blob/master/CarND-Behavioral-Cloning-P3/results/behavioral%20cloning_training.JPG)  
