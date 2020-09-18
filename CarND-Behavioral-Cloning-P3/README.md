@@ -51,7 +51,10 @@ The model is a convolution neural network that accepts a 160x320 (the original m
 
 ![nvidia.png](img/nvidia.png)
 
-I used 'elu' activation function to introduce nonlinearity, and the data is normalized in the model using a Keras lambda layer. Dropout layers are also included to prevent overfitting as this model is trained only using the Track 1 data.
+I used 'elu' activation function to introduce nonlinearity, and the data is normalized in the model using a Keras lambda layer. Dropout layers are also included to prevent overfitting as this model is trained only using the Track 1 data.  
+
+## Udacity Self-Driving Car Simulator
+The [Udacity Self-Driving Car Simulator](https://github.com/udacity/self-driving-car-sim) allows to record simualted front and side cameras of the car together with the control data like steering angle, speed, throttle, etc during the training mode. In thesutonomous mode it enables the computer to control the car via event based communication.
 
 ## Dataset
 Training data was chosen to keep the vehicle driving on the road. I used the Udacity sample dataset which is a combination of center lane driving, and recovery driving (i.e. recovering the car to the center of the road when it is off to the edges).
