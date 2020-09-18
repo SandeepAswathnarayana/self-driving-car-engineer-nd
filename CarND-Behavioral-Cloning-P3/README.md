@@ -75,8 +75,8 @@ Recovery driving: Here special manoeuvre are driven e.g. segments which started 
 
 The resulting data set consists of the following driving manoeuvre:
 
-- 1 lap, centered driving, counter-clockwise direction
-- 1 lap, centered driving, clock-wise direction
+- Several laps, centered driving, counter-clockwise direction
+- Several laps, centered driving, clock-wise direction
 - Additional maneuver for recovering to center
 - Additional maneuver for driving smooth in curves
 - Additional maneuver for critical waypoints
@@ -215,4 +215,9 @@ The trained model performing in the 'Autonomous mode' is as shown in the video u
 The cropped and normalized version of the output video (.mp4) in 'Autonomous mode' is as shown below:  
 ![run1.mp4](https://github.com/SandeepAswathnarayana/self-driving-car-engineer-nd/blob/master/CarND-Behavioral-Cloning-P3/results/run1.gif)  
 
-All the necessary log files of the trained images while driving the  car in the 'Training mode' can be found under the folder 'run1'
+All the necessary log files of the trained images while driving the  car in the 'Training mode' can be found under the folder 'run1'  
+
+## Further Work
+Although the results fared well for the context of the challenge, further work would need to be done to get a model to perform on the road. Over-correction and feedback loops are likely to occur and can potentially be helped by providing examples of course correction in the training data. In real-world performance, speed of a forward pass plays a major role, which could be mitigated by optimizing the pre-processing and using fewer parameters. Given more time, training two-stream models with a stack of optical flow images would have performed better. Using better algorithms for optical flow, including deep learning models, may have generated better results. Jointly training the optical flow and LSTM components would also be something to explore.
+
+I was initially hesitant when the challenges were announced, since problems in autonomous driving seem tremendous in scope and depth. Breaking it down into these smaller challenges and providing lots of support and resources made working on this project a lot of fun. Looking forward to learning more, and can’t wait to see future progress on the car!
