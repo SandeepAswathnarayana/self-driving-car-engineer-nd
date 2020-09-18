@@ -120,6 +120,15 @@ The simulator can be downloaded from the classroom. In the classroom, Udacity ha
 
 ## Compiling and Details About Files In This Directory
 
+Run `model.py` to run the training. The best performing model on the testset is saved automatically.
+To use the autonomous driving mode of the simulator, run drive.py after the simulator was started and set in autonomous mode.  
+
+### CPU Usage
+Set the `cfg.cuda` flag in `model.py` to `False`.
+
+### GPU Acceleration
+Switching from the CPU to the GPU is quite easy and will result in a massive speed-up. Just set the `cfg.cuda` flag in `model.py` to `True`. Make sure you installed the CUDA Framework from Nvidia. If CUDA runs out of memory, reduce the batch size until it fits into your video memory.
+
 ### `drive.py`
 
 Usage of `drive.py` requires you have saved the trained model as an h5 file, i.e. `model.h5`. See the [Keras documentation](https://keras.io/getting-started/faq/#how-can-i-save-a-keras-model) for how to create this file using the following command:
