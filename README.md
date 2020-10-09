@@ -10,7 +10,13 @@
 
 
 # Core Project Ideas in SDC Nanodegree  
-Computer Vision, Deep Learning, Sensor Fusion, Localization & Mapping, Path Planning, Control, System Integration.  
+Computer Vision  
+Deep Learning  
+Sensor Fusion  
+Localization & Mapping  
+Path Planning  
+Control  
+System Integration  
 
 
 # Brief Overview of the Projects  
