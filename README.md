@@ -57,6 +57,7 @@ Localization is how we determine where our vehicle is in the world. GPS is only 
 
 ### Project 6: [**Kidnapped Vehicle**](https://github.com/SandeepAswathnarayana/self-driving-car-engineer-nd/tree/master/CarND-Kidnapped-Vehicle-Project)  
 In this project, I built a particle filter and combined it with a map to localize a vehicle. To do so, I implemented a 2-dimensional particle filter in C++. Using the particle filter's map, observation data, control data, initial localization information (analogous to what a GPS would provide), I implemented and coded a particle filter that localizes the vehicle within the desired accuracy making sure the particle ran within the specified time of 100 seconds.  
+![Kidnapped Vehicle_Particle Filter](https://github.com/SandeepAswathnarayana/self-driving-car-engineer-nd/blob/master/CarND-Kidnapped-Vehicle-Project/results/Kidnapped%20Vehicle_Particle%20Filter_video.gif)  
 
 
 ## (5). PLANNING  
