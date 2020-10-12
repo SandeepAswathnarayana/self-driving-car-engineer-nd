@@ -73,6 +73,7 @@ This includes sending steering, acceleration, and brake commands to move the car
 
 ### Project 8: [**PID Controller**](https://github.com/SandeepAswathnarayana/self-driving-car-engineer-nd/tree/master/CarND-PID-Control-Project)  
 I implemented a PID controller to steer the self driving car around the track in Udacity's Simulator. I built the PID controller in C++ based on Udacity's starter code and made sure to keep the car on the lake race track by appropriately adjusting the steering angle to maneuver the vehicle around the track. I computed the appropriate steering angle using the simulator's Cross Track Error (CTE) and the Velocity (mph). Also, driving the car safely with a desired speed by controlling the throttle.  
+![GIF_output](https://github.com/SandeepAswathnarayana/self-driving-car-engineer-nd/blob/master/CarND-PID-Control-Project/results/GIF_output.gif)  
 
 
 ## (7). SYSTEM INTEGRATION  
