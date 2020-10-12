@@ -49,6 +49,7 @@ Tracking objects over time is a major challenge for understanding the environmen
 
 Project 5: [**Extended Kalman Filter**](https://github.com/SandeepAswathnarayana/self-driving-car-engineer-nd/tree/master/CarND-Extended-Kalman-Filter-Project)  
 Kalman Filter is a mathematical approach of determining the state of the system and it clarifies the state using the measurement information. In this project, I implemented an Extended Kalman Filter (EKF) using the Constant Velocity (CV) model in C++ to fuse together data from RADAR and LIDAR. I tracked a bicycle's (that travels around the car) position & velocity using noisy LIDAR and RADAR measurements.  
+![EKF RMSE_video](https://github.com/SandeepAswathnarayana/self-driving-car-engineer-nd/blob/master/CarND-Extended-Kalman-Filter-Project/results/EKF%20RMSE_video.gif)  
 
 
 ### (4). LOCALIZATION  
