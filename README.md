@@ -81,7 +81,7 @@ This is the capstone of the entire Self-Driving Car Engineer Nanodegree Program!
 
 ### Project 9: [**Programming a Real Self-Driving Car**](https://github.com/SandeepAswathnarayana/Udacity-SDCND-Programming-a-Real-Self-Driving-Car)  
 I initiated this Final System Integration project and spearheaded a team of 4 where we worked on the integration of Carla's 4 major subsystems including SENSOR, PERCEPTION, PLANNING, and CONTROL. We built ROS nodes to implement the core functionality of the autonomous vehicle system, including traffic light detection, traffic light classification, throttle, drive-by-wire, vehicle control, and waypoint following. This software system will be deployed on Carla (Udacity’s Self Driving Lincoln MKZ) to autonomously drive it around a test track meeting all the requitements.  
-Note: The frame rate of the output has been increased to make sure 'the car responding to traffic lights' is captured in this GIF version of the output.
+Note: The frame rate of the output has been increased to make sure 'the car responding to traffic lights' is captured in this GIF version.
 ![output video](https://github.com/SandeepAswathnarayana/Udacity-SDCND-Programming-a-Real-Self-Driving-Car/blob/sandeep/imgs/output_video.gif)  
 
 
