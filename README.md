@@ -29,7 +29,7 @@ In this project, I wrote code to identify lane lines on the road, first in an im
 
 Project 2: [**Advanced Lane Finding**](https://github.com/SandeepAswathnarayana/self-driving-car-engineer-nd/tree/master/CarND-Advanced-Lane-Lines)  
 Building on the previous project, I accomplished my goal of writing a software pipeline to identify the lane boundaries in a video from a front-facing camera on a car. The output annotated video identifies: the positions of the lane lines, the location of the vehicle relative to the center of the lane, the radius of curvature of the road.  
-![final_result_demo](img/final_result_demo.gif)  
+![final_result_demo](https://github.com/SandeepAswathnarayana/self-driving-car-engineer-nd/blob/master/CarND-Advanced-Lane-Lines/img/final_result_demo.gif)  
 
 
 ### (2). DEEP LEARNING  
