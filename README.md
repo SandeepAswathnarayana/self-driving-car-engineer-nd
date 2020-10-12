@@ -12,7 +12,7 @@
 # Core Project Ideas in SDC Nanodegree  
 Computer Vision  
 Deep Learning  
-Sensor Fusion 
+Sensor Fusion  
 Localization & Mapping  
 Path Planning  
 Control  
