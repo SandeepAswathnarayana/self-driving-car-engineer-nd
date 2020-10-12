@@ -34,13 +34,14 @@ Building on the previous project, I accomplished my goal of writing a software p
 
 ### (2). DEEP LEARNING  
 Deep learning is the most important frontier in both machine learning and autonomous vehicle development. I learned from Experts from NVIDIA to build deep neural networks and train them with data from the real world and from the Udacity simulator. Later, I trained convolutional neural networks to classify traffic signs, and then trained a neural network to drive a vehicle in the simulator.  
-![TopSoft](https://github.com/SandeepAswathnarayana/self-driving-car-engineer-nd/blob/master/CarND-Traffic-Sign-Classifier-Project/traffic-signs-data/Screenshots/TopSoft.png)  
 
 Project 3: [**Traffic Sign Classifier**](https://github.com/SandeepAswathnarayana/self-driving-car-engineer-nd/tree/master/CarND-Traffic-Sign-Classifier-Project)  
 I built a Convolutional Neural Network in TensorFlow to classify traffic sign images from the German Traffic Sign Dataset. I designed and implemented the model architecture for LeNet-5 and VGGNet to train the model and reached an accuracy of >95% on the validation set.  
+![TopSoft](https://github.com/SandeepAswathnarayana/self-driving-car-engineer-nd/blob/master/CarND-Traffic-Sign-Classifier-Project/traffic-signs-data/Screenshots/TopSoft.png)  
 
 Project 4: [**Behavioral Cloning**](https://github.com/SandeepAswathnarayana/self-driving-car-engineer-nd/tree/master/CarND-Behavioral-Cloning-P3)  
 I trained a deep neural network built using TensorFlow's Keras API to clone the human steering behavior while driving, thus being able to drive autonomously on a simulator provided by Udacity. The neural network's input includes the dataset generated from Udacity's Self-Driving Car Simulator, images taken from three different camera angles (Left, Center & Right), steering angle, throttle, brake, and speed during each frame. The neural network is based on NVIDIA's 'End to End Learning for Self-Driving Cars' paper, which has been proven to work in this problem domain.  
+![autonomous mode_simulator output](https://github.com/SandeepAswathnarayana/self-driving-car-engineer-nd/blob/master/CarND-Behavioral-Cloning-P3/results/autonomous%20mode_simulator%20output.gif)  
 
 
 ### (3). SENSOR FUSION  
