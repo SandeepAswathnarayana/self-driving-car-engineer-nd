@@ -158,7 +158,7 @@ cmake and make!
 
 ## Implementation  
 Configuring, Generating, Writing the build files, Scanning dependencies of target path_planning, Linking CXX executable path_planning, Build target path_planning:  
-[!Listening to port 4567_Path Planning](https://github.com/SandeepAswathnarayana/self-driving-car-engineer-nd/blob/master/CarND-Path-Planning-Project/results/Listening%20to%20port%204567_Path%20Planning.JPG)  
+![Listening to port 4567_Path Planning](https://github.com/SandeepAswathnarayana/self-driving-car-engineer-nd/blob/master/CarND-Path-Planning-Project/results/Listening%20to%20port%204567_Path%20Planning.JPG)  
 
 
 ## Results
