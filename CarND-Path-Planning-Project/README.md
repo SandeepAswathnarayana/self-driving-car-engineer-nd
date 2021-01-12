@@ -160,6 +160,19 @@ cmake and make!
 Configuring, Generating, Writing the build files, Scanning dependencies of target path_planning, Linking CXX executable path_planning, Build target path_planning:  
 ![Listening to port 4567_Path Planning](https://github.com/SandeepAswathnarayana/self-driving-car-engineer-nd/blob/master/CarND-Path-Planning-Project/results/Listening%20to%20port%204567_Path%20Planning.JPG)  
 
+The car run on simulator for several laps following the waypoints and meeting all the necessary requirements and regulatory constraints. All the necessary metrics, numbers, can be seen in the images below:  
+![img1](https://github.com/SandeepAswathnarayana/self-driving-car-engineer-nd/blob/master/CarND-Path-Planning-Project/results/img1.JPG)  
+
+
+![img2](https://github.com/SandeepAswathnarayana/self-driving-car-engineer-nd/blob/master/CarND-Path-Planning-Project/results/img2.JPG)  
+
+Solving the "cognition" part of an autonomous vehicle is one of the toughest challenges to be solved in autonomous vehicles today. Solving the problem of Depth Perception Vision only is only next to Cognition. The path planning, waypoints, and behavior of the car as it uses its cognitive system in decision making while overtaking while still adhering to lane discipline and several constraints as shown below:  
+
+![img3_slows down](https://github.com/SandeepAswathnarayana/self-driving-car-engineer-nd/blob/master/CarND-Path-Planning-Project/results/img3_slows%20down.JPG)  
+
+
+![img4_slows down_cars around](https://github.com/SandeepAswathnarayana/self-driving-car-engineer-nd/blob/master/CarND-Path-Planning-Project/results/img4_slows%20down_cars%20around.JPG)  
+
 
 ## Results
 
