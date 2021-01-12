@@ -176,7 +176,12 @@ Solving the "cognition" part of an autonomous vehicle is one of the toughest cha
 
 ## Results
 
-Please refer to the 'results' folder under the main project repository which comprises of video results along with a few screenshots of simulation.
+Given below is an overview of the final output  
+
+![video output_gif](https://github.com/SandeepAswathnarayana/self-driving-car-engineer-nd/blob/master/CarND-Path-Planning-Project/results/video%20output_gif.gif)  
+
+
+Please refer to [video_output.webm](https://github.com/SandeepAswathnarayana/self-driving-car-engineer-nd/blob/master/CarND-Path-Planning-Project/results/video_output.webm) under the "results" folder in the main project repository. All the necessary results can be found under the same folder.  
 
 
 ## Call for IDE Profiles Pull Requests
