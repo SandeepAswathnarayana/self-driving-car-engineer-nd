@@ -173,7 +173,8 @@ LeNet-5 is a convolutional network designed for handwritten and machine-printed 
  <p></p> 
  </figcaption>
 </figure>
-![Lenet-5](https://github.com/SandeepAswathnarayana/self-driving-car-engineer-nd/blob/master/CarND-Traffic-Sign-Classifier-Project/img/LeNet.png)  
+
+![Lenet](https://github.com/SandeepAswathnarayana/self-driving-car-engineer-nd/blob/master/CarND-Traffic-Sign-Classifier-Project/img/LeNet.png)  
 
 This ConvNet follows these steps:
 
