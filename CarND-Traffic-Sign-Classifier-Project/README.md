@@ -215,6 +215,8 @@ VGGNet was first introduced in 2014 by K. Simonyan and A. Zisserman from the Uni
  </figcaption>
 </figure>
 
+![VGGNet](https://github.com/SandeepAswathnarayana/self-driving-car-engineer-nd/blob/master/CarND-Traffic-Sign-Classifier-Project/img/VGGNet.png)  
+
 The original VGGNet architecture has 16-19 layers, but I've excluded some of them and implemented a modified version of only 12 layers to save computational resources.
 
 This ConvNet follows these steps:
